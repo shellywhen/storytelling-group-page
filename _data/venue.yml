@@ -1,0 +1,30 @@
+TVCG: 
+  full: IEEE Transaction on Visualization and Computer Graphics
+  short: TVCG
+CHI:
+  full: Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems
+  short: CHI
+Vis:
+  full: Proceedings of the IEEE Visualization Conference
+  short: VIS
+CGA:
+  full: IEEE Computer Graphics and Applications
+  short: CGA
+PacificVis:
+  full: Proceedings of the IEEE Pacific Visualization Symposium
+  short: PacificVis
+EuroVis:
+  full: Computer Graphics Forum
+  short: Proc. EuroVis
+VISAP:
+  full: IEEE VIS Arts Program
+  short: VISAP
+VIS:
+  full: IEEE Transaction on Visualization and Computer Graphics
+  short: Proc. VIS
+JOV:
+  full: Journal of Visualization
+  short: Proc. ChinaVis
+VINCI:  
+  full: Proceedings of the International Symposium on Visual Information Communication and Interaction
+  short: VINCI

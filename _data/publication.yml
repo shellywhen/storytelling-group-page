@@ -1,0 +1,596 @@
+- id: xie2023emordle
+  title: "Creating Emordle: Animating Word Cloud for Emotion Expression"
+  authors:
+    - Liwenhan Xie
+    - Xinhuan Shu
+    - Jeon Cheol Su
+    - Yun Wang
+    - Siming Chen
+    - Huamin Qu
+  tags:
+    - authoring
+    - patterns
+    - animation
+    - design
+  venue: TVCG
+  year: 2023
+  arxiv: https://arxiv.org/pdf/2306.07560.pdf
+  slides: https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/Ebmcfj3JN6FKp3GMaeLy-B0BC43T2E33RwMRYAenHNxTQg?e=YqOZaP
+  link: https://shellywhen.github.io/EmotionalWordle
+  doi: 10.1109/TVCG.2023.3286392
+  image: ./assets/img/project/xie2023emordle.gif
+
+- id: li2023notable
+  title: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"
+  authors:
+    - Haotian Li
+    - Lu Ying
+    - Haidong Zhang
+    - Yingcai Wu
+    - Huamin Qu
+    - Yun Wang
+  venue: CHI
+  year: 2023
+  tags:
+    - generation
+    - storytelling
+  arxiv: https://arxiv.org/abs/2303.04059
+  recording: https://youtu.be/FuWV1kLFl0k
+  video: https://youtu.be/PncJ061tSh0
+  image: ./assets/img/project/li2023notable.png
+  doi: 10.1145/3544548.3580965
+
+- id: geocamera
+  title: "GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements"
+  authors:
+    - Wenchao Li
+    - Zhan Wang
+    - Yun Wang
+    - Di Weng
+    - Liwenhan Xie
+    - Siming Chen
+    - Haidong Zhang
+    - Huamin Qu
+  venue: CHI
+  year: 2023
+  pdf: https://arxiv.org/pdf/2303.06460.pdf
+  video: https://youtu.be/SFBmBSHjKpA
+  highlight: 3
+  doi: 10.1145/3544548.3581470
+  image: ./assets/img/project/li2023geocamera.gif
+  tags:
+    - animation
+    - storytelling
+    - authoring
+
+- id: networknarratives
+  title: "NetworkNarratives: Data Tours for Visual Network Exploration and Analysis"
+  authors:
+    - Wenchao Li
+    - Sarah Schöttler
+    - James Scott-Brown
+    - Yun Wang
+    - Siming Chen
+    - Huamin Qu
+    - Benjamin Bach
+  venue: CHI
+  doi: https://doi.org/10.1145/3544548.3581452
+  arxiv: https://arxiv.org/abs/2303.06456
+  video: https://youtu.be/GJxMgqP_ukE
+  tags:
+    - storytelling
+  image: ./assets/img/project/li2023networknarratives.jpg
+  year: 2023
+
+- id: xu2023endings
+  title: Is It the End? Guidelines for Cinematic Endings in Data Videos
+  authors:
+    - Xian Xu
+    - Aoyu Wu
+    - Leni Yang
+    - Zheng Wei
+    - Rong Huang
+    - David Yip
+    - Huamin Qu
+  venue: CHI
+  year: 2023
+  tags:
+    - storytelling
+    - patterns
+    - animation
+    - design
+  arxiv: https://arxiv.org/abs/2303.14491
+  doi: https://doi.org/10.1145/3544548.3580701
+  talk: https://youtu.be/M5q2fP40pd0
+  image: ./assets/img/project/xu2023endings.png
+
+- id: yang2023understanding
+  title: "Understanding 3D Data Videos: From Screens to Virtual Reality"
+  authors:
+    - Leni Yang
+    - Aoyu Wu
+    - Wai Tong
+    - Xian Xu
+    - Zheng Wei
+    - Huamin Qu
+  venue: PacificVis
+  year: 2023
+  tags:
+    - animation
+    - immersive
+    - storytelling
+    - understanding
+    - design
+  pdf: https://yleni.github.io/publications/pvis23_vrdatavideo.pdf
+  doi: https://doi.org/10.1109/PacificVis56936.2023.00029
+  link: https://immersivedatavideo.github.io/
+  image: ./assets/img/project/yang2023understanding.png
+
+
+
+- id: lo2022misinformed
+  title: "Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?"
+  authors:
+    - Leo Yu-Ho Lo
+    - Ayush Gupta
+    - Kento Shigyo
+    - Aoyu Wu
+    - Enrico Bertini
+    - Huamin Qu
+  venue: EuroVis
+  year: 2022
+  tags:
+    - patterns
+  doi: https://doi.org/10.1111/cgf.14559
+  arxiv: https://arxiv.org/abs/2204.09548
+  image: ./assets/img/project/lo2022misinformed.png
+
+- id: xu2022openning
+  title: "From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles"
+  authors:
+    - Xian Xu
+    - Leni Yang
+    - David Yip
+    - Mingming Fan
+    - Zheng Wei
+    - Huamin Qu
+  venue: CHI
+  year: 2022
+  tags:
+    - patterns
+    - storytelling
+    - animation
+    - design
+  arxiv: https://arxiv.org/abs/2202.02709
+  doi: https://doi.org/10.1145/3491102.3501896
+  recording: https://youtu.be/h30FWTTkQP4
+  video: https://youtu.be/j4s-YYbtwqk
+  image: ./assets/img/project/xu2022openning.png
+
+- id: wang2021song
+  title: "Explore Mindfulness Without Deflection: A Data Art Based on the Book of Songs"
+  authors:
+    - Yifang Wang
+    - Yifan Cao
+    - Junxiu Tang
+    - Yang Wang
+    - Huamin Qu
+    - Yingcai Wu
+  venue: VISAP
+  year: 2021
+  tags:
+    - design
+    - storytelling
+  link: https://wangyifang.github.io/the-book-of-songs/
+  slides: https://wangyifang.top/static/media/visap2021-presentation.f2e2ceaa8acc6cfd85d1.pdf
+  doi: https://doi.org/10.1109/VISAP52981.2021.00014
+  pdf: https://wangyifang.top/static/media/visap2021-shijing-paper.3162dee68ec2cdf42bd6.pdf
+  recording: https://youtu.be/5fNTfPpeXQs
+  image: ./assets/img/project/wang2021song.png
+
+- id: yang2021design
+  title: "A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories"
+  authors:
+    - Leni Yang
+    - Xian Xu
+    - Xingyu Lan
+    - Ziyan Liu
+    - Shunan Guo
+    - Yang Shi
+    - Huamin Qu
+    - Nan Cao
+  venue: VIS
+  year: 2021
+  tags:
+    - storytelling
+    - patterns
+  doi: https://doi.org/10.1109/TVCG.2021.3114774
+  pdf: https://idvxlab.com/papers/2021VIS_Pyramid_Yang.pdf
+  video: https://youtu.be/l7mmyofcD8A
+  link: https://pyramidstory.idvxlab.com/
+  image: ./assets/img/project/yang2021design.png
+
+
+- id: wu2021learning
+  title: Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison
+  venue: CHI 
+  authors:
+    - Aoyu Wu
+    - Liwenhan Xie
+    - Bongshin Lee
+    - Yun Wang
+    - Weiwei Cui
+    - Huamin Qu
+  doi: https://doi.org/10.1145/3411764.3445179
+  year: 2021
+  arxiv: https://arxiv.org/abs/2101.03680.pdf
+  img: http://vis.cse.ust.hk/vislab_homepage/publication/chi_aoyu_2021.png
+  image: ./assets/img/project/wu2021learning.png
+  recording: https://youtu.be/MqW_5b_R-jw
+  tags:
+    - generation
+
+- id: yang2021explaining
+  title: "Explaining with Examples Lessons Learned from Crowdsourced Introductory Description of Information Visualizations"
+  authors:
+    - Leni Yang
+    - Cindy Xiong
+    - Jason Kam Kwai Wong
+    - Aoyu Wu
+    - Huamin Qu
+  venue: TVCG
+  year: 2021
+  tags:
+    - storytelling
+    - patterns
+  arxiv: https://arxiv.org/abs/2112.12364
+  doi: https://doi.org/10.1109/TVCG.2021.3128157
+  image: ./assets/img/project/yang2021explaining.png
+
+- id: chen2020augment
+  title: Augmenting Static Visualizations with PapARVis Designer
+  authors:
+    - Zhutian Chen
+    - Wai Tong
+    - Qianwen Wang
+    - Benjamin Bach
+    - Huamin Qu
+  venue: CHI
+  year: 2020
+  img: http://vis.cse.ust.hk/vislab_homepage/publication/chi_zhutian_2020.jpg
+  pdf: https://chenzhutian.org/projects/2020_arposter/paper.pdf
+  doi: https://doi.org/10.1145/3313831.3376436
+  recording: https://youtu.be/EKQCRMVrgOc
+  video: https://youtu.be/LOJyqP5R2oM
+  image: ./assets/img/project/chen2020augment.jpg
+  tags: 
+    - authoring
+    - patterns
+    - animation
+
+- id: wu2021ai4vis
+  title: "AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization"
+  authors:
+    - Aoyu Wu
+    - Yun Wang
+    - Xinhuan Shu
+    - Dominik Moritz
+    - Weiwei Cui
+    - Haidong Zhang
+    - Dongmei Zhang
+    - Huamin Qu
+  venue: TVCG
+  year: 2021
+  img: https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png
+  image: ./assets/img/project/wu2021ai4vis.png
+  arxiv: https://arxiv.org/abs/2102.01330
+  doi: https://doi.org/10.1109/TVCG.2021.3099002
+  link: https://ai4vis.github.io/
+  slides: https://drive.google.com/file/d/1_Ihmdf9_M9Ee5RAmYoLF9Whu1DLUeFXp/view?usp=sharing
+  recording: https://www.bilibili.com/video/BV1Sg411T7fn
+  tags: 
+    - generation
+    - survey
+
+- id: wang2021ml4vis
+  title: "Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS"
+  authors:
+    - Qianwen Wang
+    - Zhutian Chen
+    - Yong Wang
+    - Huamin Qu
+  arxiv: https://arxiv.org/abs/2012.00467
+  doi: https://doi.org/10.1109/TVCG.2021.3106142
+  link: https://ml4vis.github.io/
+  venue: TVCG
+  year: 2021
+  tags:
+    - generation
+    - survey
+  image: ./assets/img/project/wang2021ml4vis.png
+
+- id: yuan2021infocolorizer
+  title: "InfoColorizer: Interactive Recommendation of Color Palettes for Infographics"
+  authors:
+      - Linping Yuan
+      - Ziqi Zhou
+      - Jian Zhao
+      - Yiqiu Guo 
+      - Fan Du
+      - Huamin Qu
+  venue: TVCG
+  arxiv: https://arxiv.org/abs/2102.02041
+  img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_infocolorizer.png
+  image: ./assets/img/project/yuan2021infocolorizer.png
+  year: 2021
+  doi: https://doi.org/10.1109/tvcg.2021.3085327
+  link: https://yuanlinping.github.io/InfoColorizer/
+  video: https://youtu.be/FZvLt0AAIAI
+  tags:
+    - generation
+    - infographics
+
+- id: chen2021augment
+  title: "Augmenting Sports Videos with VisCommentator"
+  authors:
+    - Zhutian Chen
+    - Shuainan Ye
+    - Xiangtong Chu
+    - Haijun Xia
+    - Hui Zhang
+    - Huamin Qu
+    - Yingcai Wu
+  venue: VIS
+  year: 2021
+  awards:
+    - Best Paper Honorable Mention
+  pdf: https://chenzhutian.org/projects/2021_viscommentator/paper.pdf
+  video: https://vimeo.com/753698717
+  link: https://viscommentator.github.io/
+  doi: https://doi.org/10.1109/TVCG.2021.3114806
+  image: ./assets/img/project/chen2021augment.gif
+  tags:
+    - authoring
+    - animation
+
+- id: shu2020what
+  title: "What Makes a Data-GIF Understandable?"
+  authors:
+    - Xinhuan Shu
+    - Aoyu Wu
+    - Junxiu Tang
+    - Benjamin Bach
+    - Yingcai Wu
+    - Huamin Qu
+  venue: VIS
+  year: 2020
+  arxiv: https://arxiv.org/abs/2008.07227
+  doi: https://doi.org/10.1109/TVCG.2020.3030396
+  link: https://data-gifs.github.io/
+  image:  ./assets/img/project/shu2020what.gif
+  video: https://youtu.be/vs3iucWl0qI
+  tags:
+    - animation
+    - patterns
+  
+- id: shu2020dancingwords
+  title: "DancingWords: Exploring Animated Word Clouds to Tell Stories"
+  venue: JOV
+  year: 2020
+  authors:
+    - Xinhuan Shu
+    - Jiang Wu
+    - Xinke Wu
+    - Hongye Liang
+    - Weiwei Cui
+    - Yingcai Wu
+    - Huamin Qu
+  pdf: https://shuxinhuan.github.io/pub/dancingwords.pdf
+  doi: https://doi.org/10.1007/s12650-020-00689-0
+  link: https://dancingwords.github.io/
+  video: https://dancingwords.github.io/source/video/introduction.mp4
+  image: ./assets/img/project/shu2020dancingwords.gif
+  tags:
+    - animation
+    - authoring
+    - design
+  awards:
+    - Best Paper Honorable Mention
+
+- id: tang2020narrative
+  title: "Narrative Transitions in Data Videos"
+  authors:
+    - Junxiu Tang
+    - Lingyun Yu
+    - Tan Tang
+    - Xinhuan Shu
+    - Lu Ying
+    - Yuhua Zhou
+    - Peiran Ren
+    - Yingcai Wu
+  venue: Vis
+  year: 2020
+  arxiv: https://arxiv.org/abs/2009.05233
+  doi: https://doi.org/10.1109/VIS47514.2020.00037
+  recording: https://www.youtube.com/watch?v=RNFCuR9DgMg
+  link: https://narrativetransitions.github.io/home/
+  image: ./assets/img/project/tang2020narrative.png
+  tags:
+    - animation
+    - patterns
+  note: Short Paper
+
+- id: chen2019timeline
+  title: "Towards Automated Infographic Design: Deep Learning-based Auto-Generation of Extensible Timeline"
+  authors:
+    - Zhutian Chen
+    - Yun Wang
+    - Qianwen Wang
+    - Yong Wang
+    - Huamin Qu
+  venue: VIS
+  year: 2019
+  tags:
+    - generation
+    - infographics
+  link: https://chenzhutian.org/auto-infog-timeline
+  arxiv: https://arxiv.org/abs/1907.13550
+  doi: https://doi.org/10.1109/TVCG.2019.2934810
+  img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019_2.jpg
+  image: ./assets/img/project/chen2019towards.gif
+  video: https://vimeo.com/360050115
+
+- id: wang2019narvis
+  title: "Narvis: Authoring Narrative Slideshows for Introducing Data Visualization Designs"
+  authors:
+    - Qianwen Wang
+    - Zhen Li
+    - Siwei Fu
+    - Weiwei Cui
+    - Huamin Qu
+  venue: TVCG
+  year: 2019
+  arxiv: https://arxiv.org/abs/1907.05609
+  doi: https://doi.org/10.1109/TVCG.2018.2865232
+  tags:
+    - authoring
+    - storytelling
+  recording: https://vimeo.com/299869533
+  image: ./assets/img/project/wang2019narvis.jpg
+  video: https://youtu.be/bbRBzumBrX4
+  link: https://qianwen.info/research/Narvis/
+
+- id: chen2019design
+  title: "Designing Narrative Slideshows for Learning Analytics"
+  authors:
+    - Qing Chen
+    - Zhen Li
+    - Ting-Chuen Pong
+    - Huamin Qu
+  venue: PacificVis
+  year: 2019
+  tags:
+    - storytelling 
+  doi: https://doi.org/10.1109/PacificVis.2019.00036
+  video: https://vimeo.com/290329771
+  image: ./assets/img/project/chen2019design.png
+
+- id: wang2018storytelling
+  title: "Storytelling and Visualization: An Extended Survey"
+  authors:
+    - Chao Tong
+    - Richard Roberts
+    - Rita Borgo
+    - Sean Walton
+    - Robert S Laramee
+    - Kodzo Wegba
+    - Aidong Lu
+    - Yun Wang
+    - Huamin Qu
+    - Qiong Luo
+    - Xiaojuan Ma
+  venue: Information
+  year: 2018
+  tags:
+    - storytelling
+    - survey
+  doi: https://doi.org/10.3390/info9030065
+  pdf: https://repository.hkust.edu.hk/ir/bitstream/1783.1-89452/1/014444_1.pdf
+  image: ./assets/img/project/wang2018storytelling.png
+
+- id: chen2018marvist
+  title: "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality"
+  authors:
+   - Zhutian Chen
+   - Yijia Su
+   - Yifang Wang
+   - Qianwen Wang
+   - Huamin Qu
+   - Yingcai Wu
+  venue: VIS
+  year: 2018
+  tags:
+    - authoring
+    - immersive
+  pdf: https://chenzhutian.org/projects/2018_marvist/paper.pdf
+  link: https://chenzhutian.org/marvist
+  video: https://chenzhutian.org/projects/2018_marvist/video.mp4
+  doi: https://doi.org/10.1109/TVCG.2019.2892415
+  image: ./assets/img/project/chen2018marvist.gif
+
+- id: wang2018infonice
+  title: "InfoNice: Easy Creation of Information Graphics"
+  authors:
+    - Yun Wang
+    - Haidong Zhang
+    - He Huang
+    - Xi Chen
+    - Qiufeng Yin
+    - Zhitao Hou
+    - Dongmei Zhang
+    - Qiong Luo
+    - Huamin Qu
+  venue: CHI
+  year: 2018
+  tags:
+    - authoring
+    - infographics
+  doi: https://doi.org/10.1145/3173574.3173909
+  video: https://youtu.be/gKi9XU4VoE0
+  recording: https://youtu.be/snqvYG-Qu4g
+  pdf: https://cse.hkust.edu.hk/~huamin/chi_yun_2018.pdf
+  image: ./assets/img/project/wang2018infonice.jpg
+
+- id: wang2016edibilization
+  title: "Data Edibilization: Representing Data with Food"
+  authors:
+    - Yun Wang
+    - Xiaojuan Ma
+    - Qiong Luo
+    - Huamin Qu
+  year: 2016
+  venue: CHI
+  tags:
+    - design
+    - agenda
+  note: Poster
+  doi: https://doi.org/10.1145/2851581.2892570
+  recording: https://youtu.be/ivfA34fY1rk
+  pdf: https://repository.hkust.edu.hk/ir/bitstream/1783.1-77560/1/77560.pdf
+  image: ./assets/img/project/wang2016edibilization.png
+
+
+- id: wang2016animated
+  title: "Animated Narrative Visualization for Video Clickstream Data"
+  authors:
+    - Yun Wang
+    - Zhutian Chen
+    - Quan Li
+    - Xiaojuan Ma
+    - Qiong Luo
+    - Huamin Qu
+  venue: SIGGRAPHAsia
+  year: 2016
+  tags:
+    - animation
+    - storytelling
+  doi: https://doi.org/10.1145/3002151.3002155
+  pdf: https://www.microsoft.com/en-us/research/publication/animated-narrative-visualization-for-video-clickstream-data/
+  image: ./assets/img/project/wang2016animated.jpg
+
+- id: wang2016guided
+  title: "A Guided Tour of Literature Review: Facilitating Academic Paper Reading with Narrative Visualization"
+  authors:
+   - Yun Wang
+   - Dongyu Liu
+   - Huamin Qu
+   - Qiong Luo
+   - Xiaojuan Ma
+  venue: VINCI
+  year: 2016
+  tags:
+    - storytelling
+  doi: https://doi.org/10.1145/2968220.2968242
+  pdf: https://repository.hkust.edu.hk/ir/bitstream/1783.1-83388/1/83388.pdf
+  image: ./assets/img/project/wang2016guided.png
+  

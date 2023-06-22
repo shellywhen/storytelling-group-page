@@ -1,0 +1,22 @@
+<div class="profile-container">
+    {% for people in site.data.team %}
+    {% if people.role == include.term %}
+        <div class="profile-card">
+        <a target="_blank" href="{{ people.url }}">
+        <div class="parent-img"><div class="{{ include.class }} child-img" style="background-image: url({{ people.image }})"></div></div>
+        <div>
+            <span class="profile-name">
+                {% if people.addr %}
+                {{ people.addr }} 
+                {% endif %}
+                {{ people.name }}
+            </span>
+        </div>
+        </a>
+        {% if people.institute %}
+        <div><span class="profile-institute">{{ people.institute }}</span>  </div>
+        {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

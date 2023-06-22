@@ -1,0 +1,31 @@
+---
+---
+
+@charset "utf-8";
+$dark-gray: #404040;
+$slight-dark-gray: #6e6e6e;
+$extreme-light-gray: #f5f2fb;
+$super-light-gray: #f3f7fd;
+$highlight: #746bcd; //#0085A1;
+$gray: #c0bebe;
+.navbar-custom {
+    // background-color: black;
+
+}
+
+.extra-links a {
+    color: $highlight !important;
+}
+.nav-link, .navbar-brand {
+    &.active {
+        color: $highlight !important;
+    }
+    &:hover {
+        color: $highlight !important;
+    }
+}
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 
+    "layout",
+    "profile",
+    "publication";

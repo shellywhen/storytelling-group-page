@@ -1,0 +1,157 @@
+- name: Huamin Qu
+  url: http://huamin.org
+  role: team
+  image: ./assets/img/person/team/huamin.png
+  img: http://huamin.org/images/huamin_qu_new.jpg
+  addr: Prof.
+
+- name: Leni Yang
+  url: https://yleni.github.io/
+  role: team
+  image: ./assets/img/person/team/leni.png
+
+- name: Wenchao Li
+  url: http://home.cse.ust.hk/~wlibs/
+  image: ./assets/img/person/team/wenchao.png
+  role: team
+
+- name: Leo Yu-Ho Lo
+  url: https://leoyuholo.com/
+  image: ./assets/img/person/team/leo.jpg
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
+  role: team
+
+- name: Linping Yuan
+  url: https://yuanlinping.github.io/
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
+  image: ./assets/img/person/team/linping.png
+  role: team
+
+- name: Xian Xu
+  url: https://xxuxian.github.io/
+  role: team
+  image: ./assets/img/person/team/xian.jpg
+
+- name: Yifan Cao
+  url: https://scholar.google.com/citations?user=2pLiEysAAAAJ&hl=en
+  image: ./assets/img/person/team/yifan.png
+  role: team
+
+
+- name: Haotian Li
+  url: https://haotian-li.com/
+  img: https://haotian-li.com/photo_2.jpg
+  image: ./assets/img/person/team/haotian.jpg
+  role: team
+
+
+- name: Liwenhan Xie
+  url: https://shellywhen.github.io/
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/wenhan_2.jpg
+  image: ./assets/img/person/team/liwenhan.png
+  role: team
+
+- name: Xinhuan Shu
+  url: https://shuxinhuan.github.io/
+  img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
+  image: ./assets/img/person/team/xinhuan.png
+  role: alumni
+  institute: U. Edin
+  title: postdoc
+
+- name: Yifang Wang
+  url: https://wangyifang.top/
+  image: ./assets/img/person/alumni/yifang.png
+  title: postdoc
+  institute: Northweastern
+  role: alumni
+
+- name: Aoyu Wu
+  url: https://wowjyu.github.io/
+  img: https://wowjyu.github.io/img/gallery19.5bfd1808.jpg
+  image: ./assets/img/person/alumni/aoyu.png
+  role: alumni
+  title: postdoc
+  institute: Harvard
+
+- name: Qianwen Wang
+  url: https://qianwen.info/
+  img: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jtSR4hoAAAAJ&citpid=1
+  image: ./assets/img/person/alumni/qianwen.png
+  role: alumni
+  institute: Harvard
+  title: postdoc
+
+- name: Zhutian Chen
+  url: https://chenzhutian.org/
+  image: ./assets/img/person/alumni/zhutian.png
+  role: alumni
+  institute: Harvard
+  title: postdoc
+
+- name: Yun Wang
+  url: https://www.microsoft.com/en-us/research/people/wangyun/
+  img: https://www.microsoft.com/en-us/research/uploads/prod/2019/04/unnamed-file.jpg
+  image: ./assets/img/person/alumni/yun.png
+  role: alumni
+  institute: MSRA
+  title: Senior Researcher
+
+
+- name: Qing Chen
+  url: https://tjdi.tongji.edu.cn/TeacherDetail.do?id=5056&lang=en
+  image: ./assets/img/person/alumni/qing.png
+  role: alumni
+
+
+- name: Weiwei Cui
+  url: https://www.microsoft.com/en-us/research/people/weiweicu/
+  role: alumni
+  img: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/weiweicu-e1459374782237.jpg
+  image: ./assets/img/person/alumni/weiwei-cui.jpg
+  institute: MSRA
+  title: Senior Researcher
+
+- name: Nan Cao
+  url: https://idvxlab.com/
+  image: ./assets/img/person/alumni/nan.jpeg
+  role: alumni
+
+# - name: MSR 
+#   image: ./assets/img/person/collaborator/msr.png
+#   role: collaborator
+
+- name: MSRA
+  image: ./assets/img/person/collaborator/logo_MSRA.png
+  role: collaborator
+
+# - name: Adobe Research
+#   image: ./assets/img/person/collaborator/adobe.png
+#   role: collaborator
+
+# - name: CMU
+#   image: ./assets/img/person/collaborator/cmu-red.png
+#   role: collaborator
+
+# - name: UCSD
+#   image: ./assets/img/person/collaborator/ucsd.png
+#   role: collaborator
+
+- name: Harvard
+  image: ./assets/img/person/collaborator/harvard.png
+  role: collaborator
+
+- name: ZJU
+  image: ./assets/img/person/collaborator/zju.png
+  role: collaborator
+
+- name: CMA-HKUST
+  image: ./assets/img/person/collaborator/cma.jpg
+  role: collaborator
+
+- name: Tongji
+  image: ./assets/img/person/collaborator/tongji.png
+  role: collaborator
+
+
+
