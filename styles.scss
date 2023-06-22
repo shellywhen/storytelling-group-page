@@ -24,6 +24,37 @@ $gray: #c0bebe;
         color: $highlight !important;
     }
 }
+
+.navbar-brand {
+    span {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    animation: bounce 1.2s ease infinite alternate;
+    margin-right: -3px;
+  }
+  @for $i from 1 through 17 {
+    span:nth-child(#{$i}) {
+        animation-delay: $i * 0.08s;
+    }
+  }
+}
+
+$shadow-color: #e5dbe7;
+@keyframes bounce{
+    100%{
+      top: -4px;
+      text-shadow: 0 1px $shadow-color, 
+                   0 2px $shadow-color, 
+                   0 3px $shadow-color, 
+                   0 4px $shadow-color, 
+                   0 5px $shadow-color,
+                   0 6px $shadow-color, 
+                   0 7px $shadow-color, 
+                   0 10px 10px rgba(70, 20, 54, 0.2);
+    }
+  }
+ 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 
     "layout",

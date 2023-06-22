@@ -1,6 +1,6 @@
 {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ (pub.title | slugify) }}{% endif %}{% endcapture %}
-
-<div class="publication" data-pub='{{ pub | jsonify | escape }}'>
+    {% assign tagStr = pub.tags | join: " tag_" | prepend:"tag_" %}
+<div class="publication {{tagStr}}" data-pub='{{ pub | jsonify | escape }}'>
     <div class="thumbnail">
         <img src="{{ pub.image  }}" />
     </div>

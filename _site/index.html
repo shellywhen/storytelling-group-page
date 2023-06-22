@@ -123,7 +123,25 @@
   
 
 
-  <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="">Data Storytelling</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="">
+      <span>D</span>
+      <span>a</span>
+      <span>t</span>
+      <span>a</span>
+      <span>&nbsp;</span>
+      <span>S</span>
+      <span>t</span>
+      <span>o</span>
+      <span>r</span>
+      <span>y</span>
+      <span>t</span>
+      <span>e</span>
+      <span>l</span>
+      <span>l</span>
+      <span>i</span>   
+      <span>n</span>
+      <span>g</span>
+    </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -176,7 +194,7 @@
             <p>
                
             </p>
-            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the <b>identification of narrative patterns in data-driven storytelling</b>, the <b>development of tools for authoring expressive visualizations</b>, and the <b>automatic generation of data stories</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
+            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the <b>investigation of novel techniques in data-driven storytelling</b>, the <b>development of tools for authoring expressive visualizations</b>, and the <b>automatic generation of data stories</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
 
                 At the core of our research lies the belief that data storytelling is not only about presenting numbers and facts but also about crafting engaging narratives that resonate with the audience. By exploring innovative visualization techniques and narrative structures, we strive to create a powerful medium that simplifies complex data insights, making them approachable and relatable to a wide range of audiences.</p>
         </div>
@@ -225,14 +243,21 @@
 </div>
 
 <div id="publication" class="wrapper">
+
     <h2 class="major-title"><span>Publications</span></h2>
 
+    <div class="filter-panel">
+        <div class="all-button" data-value="all" onclick="filterPub(this)">All</div>
+        <div data-value="storytelling" onclick="filterPub(this)">Storytelling Techniques</div>
+        <div data-value="design" onclick="filterPub(this)">Data Story Design</div>
+        <div data-value="authoring" onclick="filterPub(this)">Authoring Support</div>
+    </div>
 
 
      <h3 class="year" href="#y2023"><span> 2023 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;xie2023emordle&quot;,&quot;title&quot;:&quot;Creating Emordle: Animating Word Cloud for Emotion Expression&quot;,&quot;authors&quot;:[&quot;Liwenhan Xie&quot;,&quot;Xinhuan Shu&quot;,&quot;Jeon Cheol Su&quot;,&quot;Yun Wang&quot;,&quot;Siming Chen&quot;,&quot;Huamin Qu&quot;],&quot;tags&quot;:[&quot;authoring&quot;,&quot;patterns&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2023,&quot;arxiv&quot;:&quot;https://arxiv.org/pdf/2306.07560.pdf&quot;,&quot;slides&quot;:&quot;https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/Ebmcfj3JN6FKp3GMaeLy-B0BC43T2E33RwMRYAenHNxTQg?e=YqOZaP&quot;,&quot;link&quot;:&quot;https://shellywhen.github.io/EmotionalWordle&quot;,&quot;doi&quot;:&quot;10.1109/TVCG.2023.3286392&quot;,&quot;image&quot;:&quot;./assets/img/project/xie2023emordle.gif&quot;}'>
+    
+<div class="publication tag_authoring tag_patterns tag_animation tag_design" data-pub='{&quot;id&quot;:&quot;xie2023emordle&quot;,&quot;title&quot;:&quot;Creating Emordle: Animating Word Cloud for Emotion Expression&quot;,&quot;authors&quot;:[&quot;Liwenhan Xie&quot;,&quot;Xinhuan Shu&quot;,&quot;Jeon Cheol Su&quot;,&quot;Yun Wang&quot;,&quot;Siming Chen&quot;,&quot;Huamin Qu&quot;],&quot;tags&quot;:[&quot;authoring&quot;,&quot;patterns&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2023,&quot;arxiv&quot;:&quot;https://arxiv.org/pdf/2306.07560.pdf&quot;,&quot;slides&quot;:&quot;https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/Ebmcfj3JN6FKp3GMaeLy-B0BC43T2E33RwMRYAenHNxTQg?e=YqOZaP&quot;,&quot;link&quot;:&quot;https://shellywhen.github.io/EmotionalWordle&quot;,&quot;doi&quot;:&quot;10.1109/TVCG.2023.3286392&quot;,&quot;image&quot;:&quot;./assets/img/project/xie2023emordle.gif&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/xie2023emordle.gif" />
     </div>
@@ -282,8 +307,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;li2023notable&quot;,&quot;title&quot;:&quot;Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks&quot;,&quot;authors&quot;:[&quot;Haotian Li&quot;,&quot;Lu Ying&quot;,&quot;Haidong Zhang&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;,&quot;Yun Wang&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;generation&quot;,&quot;storytelling&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.04059&quot;,&quot;recording&quot;:&quot;https://youtu.be/FuWV1kLFl0k&quot;,&quot;video&quot;:&quot;https://youtu.be/PncJ061tSh0&quot;,&quot;image&quot;:&quot;./assets/img/project/li2023notable.png&quot;,&quot;doi&quot;:&quot;10.1145/3544548.3580965&quot;}'>
+    
+<div class="publication tag_generation tag_storytelling" data-pub='{&quot;id&quot;:&quot;li2023notable&quot;,&quot;title&quot;:&quot;Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks&quot;,&quot;authors&quot;:[&quot;Haotian Li&quot;,&quot;Lu Ying&quot;,&quot;Haidong Zhang&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;,&quot;Yun Wang&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;generation&quot;,&quot;storytelling&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.04059&quot;,&quot;recording&quot;:&quot;https://youtu.be/FuWV1kLFl0k&quot;,&quot;video&quot;:&quot;https://youtu.be/PncJ061tSh0&quot;,&quot;image&quot;:&quot;./assets/img/project/li2023notable.png&quot;,&quot;doi&quot;:&quot;10.1145/3544548.3580965&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/li2023notable.png" />
     </div>
@@ -331,8 +356,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;geocamera&quot;,&quot;title&quot;:&quot;GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements&quot;,&quot;authors&quot;:[&quot;Wenchao Li&quot;,&quot;Zhan Wang&quot;,&quot;Yun Wang&quot;,&quot;Di Weng&quot;,&quot;Liwenhan Xie&quot;,&quot;Siming Chen&quot;,&quot;Haidong Zhang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;pdf&quot;:&quot;https://arxiv.org/pdf/2303.06460.pdf&quot;,&quot;video&quot;:&quot;https://youtu.be/SFBmBSHjKpA&quot;,&quot;highlight&quot;:3,&quot;doi&quot;:&quot;10.1145/3544548.3581470&quot;,&quot;image&quot;:&quot;./assets/img/project/li2023geocamera.gif&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;storytelling&quot;,&quot;authoring&quot;]}'>
+    
+<div class="publication tag_animation tag_storytelling tag_authoring" data-pub='{&quot;id&quot;:&quot;geocamera&quot;,&quot;title&quot;:&quot;GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements&quot;,&quot;authors&quot;:[&quot;Wenchao Li&quot;,&quot;Zhan Wang&quot;,&quot;Yun Wang&quot;,&quot;Di Weng&quot;,&quot;Liwenhan Xie&quot;,&quot;Siming Chen&quot;,&quot;Haidong Zhang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;pdf&quot;:&quot;https://arxiv.org/pdf/2303.06460.pdf&quot;,&quot;video&quot;:&quot;https://youtu.be/SFBmBSHjKpA&quot;,&quot;highlight&quot;:3,&quot;doi&quot;:&quot;10.1145/3544548.3581470&quot;,&quot;image&quot;:&quot;./assets/img/project/li2023geocamera.gif&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;storytelling&quot;,&quot;authoring&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/li2023geocamera.gif" />
     </div>
@@ -373,8 +398,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;networknarratives&quot;,&quot;title&quot;:&quot;NetworkNarratives: Data Tours for Visual Network Exploration and Analysis&quot;,&quot;authors&quot;:[&quot;Wenchao Li&quot;,&quot;Sarah Schöttler&quot;,&quot;James Scott-Brown&quot;,&quot;Yun Wang&quot;,&quot;Siming Chen&quot;,&quot;Huamin Qu&quot;,&quot;Benjamin Bach&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3544548.3581452&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.06456&quot;,&quot;video&quot;:&quot;https://youtu.be/GJxMgqP_ukE&quot;,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;image&quot;:&quot;./assets/img/project/li2023networknarratives.jpg&quot;,&quot;year&quot;:2023}'>
+    
+<div class="publication tag_storytelling" data-pub='{&quot;id&quot;:&quot;networknarratives&quot;,&quot;title&quot;:&quot;NetworkNarratives: Data Tours for Visual Network Exploration and Analysis&quot;,&quot;authors&quot;:[&quot;Wenchao Li&quot;,&quot;Sarah Schöttler&quot;,&quot;James Scott-Brown&quot;,&quot;Yun Wang&quot;,&quot;Siming Chen&quot;,&quot;Huamin Qu&quot;,&quot;Benjamin Bach&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3544548.3581452&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.06456&quot;,&quot;video&quot;:&quot;https://youtu.be/GJxMgqP_ukE&quot;,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;image&quot;:&quot;./assets/img/project/li2023networknarratives.jpg&quot;,&quot;year&quot;:2023}'>
     <div class="thumbnail">
         <img src="./assets/img/project/li2023networknarratives.jpg" />
     </div>
@@ -418,8 +443,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;xu2023endings&quot;,&quot;title&quot;:&quot;Is It the End? Guidelines for Cinematic Endings in Data Videos&quot;,&quot;authors&quot;:[&quot;Xian Xu&quot;,&quot;Aoyu Wu&quot;,&quot;Leni Yang&quot;,&quot;Zheng Wei&quot;,&quot;Rong Huang&quot;,&quot;David Yip&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.14491&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3544548.3580701&quot;,&quot;talk&quot;:&quot;https://youtu.be/M5q2fP40pd0&quot;,&quot;image&quot;:&quot;./assets/img/project/xu2023endings.png&quot;}'>
+    
+<div class="publication tag_storytelling tag_patterns tag_animation tag_design" data-pub='{&quot;id&quot;:&quot;xu2023endings&quot;,&quot;title&quot;:&quot;Is It the End? Guidelines for Cinematic Endings in Data Videos&quot;,&quot;authors&quot;:[&quot;Xian Xu&quot;,&quot;Aoyu Wu&quot;,&quot;Leni Yang&quot;,&quot;Zheng Wei&quot;,&quot;Rong Huang&quot;,&quot;David Yip&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2303.14491&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3544548.3580701&quot;,&quot;talk&quot;:&quot;https://youtu.be/M5q2fP40pd0&quot;,&quot;image&quot;:&quot;./assets/img/project/xu2023endings.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/xu2023endings.png" />
     </div>
@@ -459,8 +484,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;yang2023understanding&quot;,&quot;title&quot;:&quot;Understanding 3D Data Videos: From Screens to Virtual Reality&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Aoyu Wu&quot;,&quot;Wai Tong&quot;,&quot;Xian Xu&quot;,&quot;Zheng Wei&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;PacificVis&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;animation&quot;,&quot;immersive&quot;,&quot;storytelling&quot;,&quot;understanding&quot;,&quot;design&quot;],&quot;pdf&quot;:&quot;https://yleni.github.io/publications/pvis23_vrdatavideo.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/PacificVis56936.2023.00029&quot;,&quot;link&quot;:&quot;https://immersivedatavideo.github.io/&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2023understanding.png&quot;}'>
+    
+<div class="publication tag_animation tag_immersive tag_storytelling tag_understanding tag_design" data-pub='{&quot;id&quot;:&quot;yang2023understanding&quot;,&quot;title&quot;:&quot;Understanding 3D Data Videos: From Screens to Virtual Reality&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Aoyu Wu&quot;,&quot;Wai Tong&quot;,&quot;Xian Xu&quot;,&quot;Zheng Wei&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;PacificVis&quot;,&quot;year&quot;:2023,&quot;tags&quot;:[&quot;animation&quot;,&quot;immersive&quot;,&quot;storytelling&quot;,&quot;understanding&quot;,&quot;design&quot;],&quot;pdf&quot;:&quot;https://yleni.github.io/publications/pvis23_vrdatavideo.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/PacificVis56936.2023.00029&quot;,&quot;link&quot;:&quot;https://immersivedatavideo.github.io/&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2023understanding.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/yang2023understanding.png" />
     </div>
@@ -503,8 +528,8 @@
     </div>
 </div>  <h3 class="year" href="#y2022"><span> 2022 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;lo2022misinformed&quot;,&quot;title&quot;:&quot;Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?&quot;,&quot;authors&quot;:[&quot;Leo Yu-Ho Lo&quot;,&quot;Ayush Gupta&quot;,&quot;Kento Shigyo&quot;,&quot;Aoyu Wu&quot;,&quot;Enrico Bertini&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;EuroVis&quot;,&quot;year&quot;:2022,&quot;tags&quot;:[&quot;patterns&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1111/cgf.14559&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2204.09548&quot;,&quot;image&quot;:&quot;./assets/img/project/lo2022misinformed.png&quot;}'>
+    
+<div class="publication tag_patterns" data-pub='{&quot;id&quot;:&quot;lo2022misinformed&quot;,&quot;title&quot;:&quot;Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?&quot;,&quot;authors&quot;:[&quot;Leo Yu-Ho Lo&quot;,&quot;Ayush Gupta&quot;,&quot;Kento Shigyo&quot;,&quot;Aoyu Wu&quot;,&quot;Enrico Bertini&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;EuroVis&quot;,&quot;year&quot;:2022,&quot;tags&quot;:[&quot;patterns&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1111/cgf.14559&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2204.09548&quot;,&quot;image&quot;:&quot;./assets/img/project/lo2022misinformed.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/lo2022misinformed.png" />
     </div>
@@ -544,8 +569,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;xu2022openning&quot;,&quot;title&quot;:&quot;From &#39;Wow&#39; to &#39;Why&#39;: Guidelines for Creating the Opening of a Data Video with Cinematic Styles&quot;,&quot;authors&quot;:[&quot;Xian Xu&quot;,&quot;Leni Yang&quot;,&quot;David Yip&quot;,&quot;Mingming Fan&quot;,&quot;Zheng Wei&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2022,&quot;tags&quot;:[&quot;patterns&quot;,&quot;storytelling&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2202.02709&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3491102.3501896&quot;,&quot;recording&quot;:&quot;https://youtu.be/h30FWTTkQP4&quot;,&quot;video&quot;:&quot;https://youtu.be/j4s-YYbtwqk&quot;,&quot;image&quot;:&quot;./assets/img/project/xu2022openning.png&quot;}'>
+    
+<div class="publication tag_patterns tag_storytelling tag_animation tag_design" data-pub='{&quot;id&quot;:&quot;xu2022openning&quot;,&quot;title&quot;:&quot;From &#39;Wow&#39; to &#39;Why&#39;: Guidelines for Creating the Opening of a Data Video with Cinematic Styles&quot;,&quot;authors&quot;:[&quot;Xian Xu&quot;,&quot;Leni Yang&quot;,&quot;David Yip&quot;,&quot;Mingming Fan&quot;,&quot;Zheng Wei&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2022,&quot;tags&quot;:[&quot;patterns&quot;,&quot;storytelling&quot;,&quot;animation&quot;,&quot;design&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2202.02709&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3491102.3501896&quot;,&quot;recording&quot;:&quot;https://youtu.be/h30FWTTkQP4&quot;,&quot;video&quot;:&quot;https://youtu.be/j4s-YYbtwqk&quot;,&quot;image&quot;:&quot;./assets/img/project/xu2022openning.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/xu2022openning.png" />
     </div>
@@ -594,8 +619,8 @@
     </div>
 </div>  <h3 class="year" href="#y2021"><span> 2021 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2021song&quot;,&quot;title&quot;:&quot;Explore Mindfulness Without Deflection: A Data Art Based on the Book of Songs&quot;,&quot;authors&quot;:[&quot;Yifang Wang&quot;,&quot;Yifan Cao&quot;,&quot;Junxiu Tang&quot;,&quot;Yang Wang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VISAP&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;design&quot;,&quot;storytelling&quot;],&quot;link&quot;:&quot;https://wangyifang.github.io/the-book-of-songs/&quot;,&quot;slides&quot;:&quot;https://wangyifang.top/static/media/visap2021-presentation.f2e2ceaa8acc6cfd85d1.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/VISAP52981.2021.00014&quot;,&quot;pdf&quot;:&quot;https://wangyifang.top/static/media/visap2021-shijing-paper.3162dee68ec2cdf42bd6.pdf&quot;,&quot;recording&quot;:&quot;https://youtu.be/5fNTfPpeXQs&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2021song.png&quot;}'>
+    
+<div class="publication tag_design tag_storytelling" data-pub='{&quot;id&quot;:&quot;wang2021song&quot;,&quot;title&quot;:&quot;Explore Mindfulness Without Deflection: A Data Art Based on the Book of Songs&quot;,&quot;authors&quot;:[&quot;Yifang Wang&quot;,&quot;Yifan Cao&quot;,&quot;Junxiu Tang&quot;,&quot;Yang Wang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VISAP&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;design&quot;,&quot;storytelling&quot;],&quot;link&quot;:&quot;https://wangyifang.github.io/the-book-of-songs/&quot;,&quot;slides&quot;:&quot;https://wangyifang.top/static/media/visap2021-presentation.f2e2ceaa8acc6cfd85d1.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/VISAP52981.2021.00014&quot;,&quot;pdf&quot;:&quot;https://wangyifang.top/static/media/visap2021-shijing-paper.3162dee68ec2cdf42bd6.pdf&quot;,&quot;recording&quot;:&quot;https://youtu.be/5fNTfPpeXQs&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2021song.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2021song.png" />
     </div>
@@ -646,8 +671,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;yang2021design&quot;,&quot;title&quot;:&quot;A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Xian Xu&quot;,&quot;Xingyu Lan&quot;,&quot;Ziyan Liu&quot;,&quot;Shunan Guo&quot;,&quot;Yang Shi&quot;,&quot;Huamin Qu&quot;,&quot;Nan Cao&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3114774&quot;,&quot;pdf&quot;:&quot;https://idvxlab.com/papers/2021VIS_Pyramid_Yang.pdf&quot;,&quot;video&quot;:&quot;https://youtu.be/l7mmyofcD8A&quot;,&quot;link&quot;:&quot;https://pyramidstory.idvxlab.com/&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2021design.png&quot;}'>
+    
+<div class="publication tag_storytelling tag_patterns" data-pub='{&quot;id&quot;:&quot;yang2021design&quot;,&quot;title&quot;:&quot;A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Xian Xu&quot;,&quot;Xingyu Lan&quot;,&quot;Ziyan Liu&quot;,&quot;Shunan Guo&quot;,&quot;Yang Shi&quot;,&quot;Huamin Qu&quot;,&quot;Nan Cao&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3114774&quot;,&quot;pdf&quot;:&quot;https://idvxlab.com/papers/2021VIS_Pyramid_Yang.pdf&quot;,&quot;video&quot;:&quot;https://youtu.be/l7mmyofcD8A&quot;,&quot;link&quot;:&quot;https://pyramidstory.idvxlab.com/&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2021design.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/yang2021design.png" />
     </div>
@@ -693,8 +718,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wu2021learning&quot;,&quot;title&quot;:&quot;Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison&quot;,&quot;venue&quot;:&quot;CHI&quot;,&quot;authors&quot;:[&quot;Aoyu Wu&quot;,&quot;Liwenhan Xie&quot;,&quot;Bongshin Lee&quot;,&quot;Yun Wang&quot;,&quot;Weiwei Cui&quot;,&quot;Huamin Qu&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3411764.3445179&quot;,&quot;year&quot;:2021,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2101.03680.pdf&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/chi_aoyu_2021.png&quot;,&quot;image&quot;:&quot;./assets/img/project/wu2021learning.png&quot;,&quot;recording&quot;:&quot;https://youtu.be/MqW_5b_R-jw&quot;,&quot;tags&quot;:[&quot;generation&quot;]}'>
+    
+<div class="publication tag_generation" data-pub='{&quot;id&quot;:&quot;wu2021learning&quot;,&quot;title&quot;:&quot;Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison&quot;,&quot;venue&quot;:&quot;CHI&quot;,&quot;authors&quot;:[&quot;Aoyu Wu&quot;,&quot;Liwenhan Xie&quot;,&quot;Bongshin Lee&quot;,&quot;Yun Wang&quot;,&quot;Weiwei Cui&quot;,&quot;Huamin Qu&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3411764.3445179&quot;,&quot;year&quot;:2021,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2101.03680.pdf&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/chi_aoyu_2021.png&quot;,&quot;image&quot;:&quot;./assets/img/project/wu2021learning.png&quot;,&quot;recording&quot;:&quot;https://youtu.be/MqW_5b_R-jw&quot;,&quot;tags&quot;:[&quot;generation&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wu2021learning.png" />
     </div>
@@ -738,8 +763,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;yang2021explaining&quot;,&quot;title&quot;:&quot;Explaining with Examples Lessons Learned from Crowdsourced Introductory Description of Information Visualizations&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Cindy Xiong&quot;,&quot;Jason Kam Kwai Wong&quot;,&quot;Aoyu Wu&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2112.12364&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3128157&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2021explaining.png&quot;}'>
+    
+<div class="publication tag_storytelling tag_patterns" data-pub='{&quot;id&quot;:&quot;yang2021explaining&quot;,&quot;title&quot;:&quot;Explaining with Examples Lessons Learned from Crowdsourced Introductory Description of Information Visualizations&quot;,&quot;authors&quot;:[&quot;Leni Yang&quot;,&quot;Cindy Xiong&quot;,&quot;Jason Kam Kwai Wong&quot;,&quot;Aoyu Wu&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;patterns&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2112.12364&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3128157&quot;,&quot;image&quot;:&quot;./assets/img/project/yang2021explaining.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/yang2021explaining.png" />
     </div>
@@ -779,8 +804,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wu2021ai4vis&quot;,&quot;title&quot;:&quot;AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization&quot;,&quot;authors&quot;:[&quot;Aoyu Wu&quot;,&quot;Yun Wang&quot;,&quot;Xinhuan Shu&quot;,&quot;Dominik Moritz&quot;,&quot;Weiwei Cui&quot;,&quot;Haidong Zhang&quot;,&quot;Dongmei Zhang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;img&quot;:&quot;https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png&quot;,&quot;image&quot;:&quot;./assets/img/project/wu2021ai4vis.png&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2102.01330&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3099002&quot;,&quot;link&quot;:&quot;https://ai4vis.github.io/&quot;,&quot;slides&quot;:&quot;https://drive.google.com/file/d/1_Ihmdf9_M9Ee5RAmYoLF9Whu1DLUeFXp/view?usp=sharing&quot;,&quot;recording&quot;:&quot;https://www.bilibili.com/video/BV1Sg411T7fn&quot;,&quot;tags&quot;:[&quot;generation&quot;,&quot;survey&quot;]}'>
+    
+<div class="publication tag_generation tag_survey" data-pub='{&quot;id&quot;:&quot;wu2021ai4vis&quot;,&quot;title&quot;:&quot;AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization&quot;,&quot;authors&quot;:[&quot;Aoyu Wu&quot;,&quot;Yun Wang&quot;,&quot;Xinhuan Shu&quot;,&quot;Dominik Moritz&quot;,&quot;Weiwei Cui&quot;,&quot;Haidong Zhang&quot;,&quot;Dongmei Zhang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;img&quot;:&quot;https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png&quot;,&quot;image&quot;:&quot;./assets/img/project/wu2021ai4vis.png&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2102.01330&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3099002&quot;,&quot;link&quot;:&quot;https://ai4vis.github.io/&quot;,&quot;slides&quot;:&quot;https://drive.google.com/file/d/1_Ihmdf9_M9Ee5RAmYoLF9Whu1DLUeFXp/view?usp=sharing&quot;,&quot;recording&quot;:&quot;https://www.bilibili.com/video/BV1Sg411T7fn&quot;,&quot;tags&quot;:[&quot;generation&quot;,&quot;survey&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wu2021ai4vis.png" />
     </div>
@@ -834,8 +859,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2021ml4vis&quot;,&quot;title&quot;:&quot;Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS&quot;,&quot;authors&quot;:[&quot;Qianwen Wang&quot;,&quot;Zhutian Chen&quot;,&quot;Yong Wang&quot;,&quot;Huamin Qu&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2012.00467&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3106142&quot;,&quot;link&quot;:&quot;https://ml4vis.github.io/&quot;,&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;generation&quot;,&quot;survey&quot;],&quot;image&quot;:&quot;./assets/img/project/wang2021ml4vis.png&quot;}'>
+    
+<div class="publication tag_generation tag_survey" data-pub='{&quot;id&quot;:&quot;wang2021ml4vis&quot;,&quot;title&quot;:&quot;Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS&quot;,&quot;authors&quot;:[&quot;Qianwen Wang&quot;,&quot;Zhutian Chen&quot;,&quot;Yong Wang&quot;,&quot;Huamin Qu&quot;],&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2012.00467&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3106142&quot;,&quot;link&quot;:&quot;https://ml4vis.github.io/&quot;,&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2021,&quot;tags&quot;:[&quot;generation&quot;,&quot;survey&quot;],&quot;image&quot;:&quot;./assets/img/project/wang2021ml4vis.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2021ml4vis.png" />
     </div>
@@ -880,8 +905,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;yuan2021infocolorizer&quot;,&quot;title&quot;:&quot;InfoColorizer: Interactive Recommendation of Color Palettes for Infographics&quot;,&quot;authors&quot;:[&quot;Linping Yuan&quot;,&quot;Ziqi Zhou&quot;,&quot;Jian Zhao&quot;,&quot;Yiqiu Guo&quot;,&quot;Fan Du&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2102.02041&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_infocolorizer.png&quot;,&quot;image&quot;:&quot;./assets/img/project/yuan2021infocolorizer.png&quot;,&quot;year&quot;:2021,&quot;doi&quot;:&quot;https://doi.org/10.1109/tvcg.2021.3085327&quot;,&quot;link&quot;:&quot;https://yuanlinping.github.io/InfoColorizer/&quot;,&quot;video&quot;:&quot;https://youtu.be/FZvLt0AAIAI&quot;,&quot;tags&quot;:[&quot;generation&quot;,&quot;infographics&quot;]}'>
+    
+<div class="publication tag_generation tag_infographics" data-pub='{&quot;id&quot;:&quot;yuan2021infocolorizer&quot;,&quot;title&quot;:&quot;InfoColorizer: Interactive Recommendation of Color Palettes for Infographics&quot;,&quot;authors&quot;:[&quot;Linping Yuan&quot;,&quot;Ziqi Zhou&quot;,&quot;Jian Zhao&quot;,&quot;Yiqiu Guo&quot;,&quot;Fan Du&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2102.02041&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_infocolorizer.png&quot;,&quot;image&quot;:&quot;./assets/img/project/yuan2021infocolorizer.png&quot;,&quot;year&quot;:2021,&quot;doi&quot;:&quot;https://doi.org/10.1109/tvcg.2021.3085327&quot;,&quot;link&quot;:&quot;https://yuanlinping.github.io/InfoColorizer/&quot;,&quot;video&quot;:&quot;https://youtu.be/FZvLt0AAIAI&quot;,&quot;tags&quot;:[&quot;generation&quot;,&quot;infographics&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/yuan2021infocolorizer.png" />
     </div>
@@ -930,8 +955,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;chen2021augment&quot;,&quot;title&quot;:&quot;Augmenting Sports Videos with VisCommentator&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Shuainan Ye&quot;,&quot;Xiangtong Chu&quot;,&quot;Haijun Xia&quot;,&quot;Hui Zhang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2021,&quot;awards&quot;:[&quot;Best Paper Honorable Mention&quot;],&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2021_viscommentator/paper.pdf&quot;,&quot;video&quot;:&quot;https://vimeo.com/753698717&quot;,&quot;link&quot;:&quot;https://viscommentator.github.io/&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3114806&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2021augment.gif&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;animation&quot;]}'>
+    
+<div class="publication tag_authoring tag_animation" data-pub='{&quot;id&quot;:&quot;chen2021augment&quot;,&quot;title&quot;:&quot;Augmenting Sports Videos with VisCommentator&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Shuainan Ye&quot;,&quot;Xiangtong Chu&quot;,&quot;Haijun Xia&quot;,&quot;Hui Zhang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2021,&quot;awards&quot;:[&quot;Best Paper Honorable Mention&quot;],&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2021_viscommentator/paper.pdf&quot;,&quot;video&quot;:&quot;https://vimeo.com/753698717&quot;,&quot;link&quot;:&quot;https://viscommentator.github.io/&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2021.3114806&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2021augment.gif&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;animation&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/chen2021augment.gif" />
     </div>
@@ -982,8 +1007,8 @@
     </div>
 </div>  <h3 class="year" href="#y2020"><span> 2020 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;chen2020augment&quot;,&quot;title&quot;:&quot;Augmenting Static Visualizations with PapARVis Designer&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Wai Tong&quot;,&quot;Qianwen Wang&quot;,&quot;Benjamin Bach&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2020,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/chi_zhutian_2020.jpg&quot;,&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2020_arposter/paper.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3313831.3376436&quot;,&quot;recording&quot;:&quot;https://youtu.be/EKQCRMVrgOc&quot;,&quot;video&quot;:&quot;https://youtu.be/LOJyqP5R2oM&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2020augment.jpg&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;patterns&quot;,&quot;animation&quot;]}'>
+    
+<div class="publication tag_authoring tag_patterns tag_animation" data-pub='{&quot;id&quot;:&quot;chen2020augment&quot;,&quot;title&quot;:&quot;Augmenting Static Visualizations with PapARVis Designer&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Wai Tong&quot;,&quot;Qianwen Wang&quot;,&quot;Benjamin Bach&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2020,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/chi_zhutian_2020.jpg&quot;,&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2020_arposter/paper.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/3313831.3376436&quot;,&quot;recording&quot;:&quot;https://youtu.be/EKQCRMVrgOc&quot;,&quot;video&quot;:&quot;https://youtu.be/LOJyqP5R2oM&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2020augment.jpg&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;patterns&quot;,&quot;animation&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/chen2020augment.jpg" />
     </div>
@@ -1028,8 +1053,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;shu2020what&quot;,&quot;title&quot;:&quot;What Makes a Data-GIF Understandable?&quot;,&quot;authors&quot;:[&quot;Xinhuan Shu&quot;,&quot;Aoyu Wu&quot;,&quot;Junxiu Tang&quot;,&quot;Benjamin Bach&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2020,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2008.07227&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2020.3030396&quot;,&quot;link&quot;:&quot;https://data-gifs.github.io/&quot;,&quot;image&quot;:&quot;./assets/img/project/shu2020what.gif&quot;,&quot;video&quot;:&quot;https://youtu.be/vs3iucWl0qI&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;patterns&quot;]}'>
+    
+<div class="publication tag_animation tag_patterns" data-pub='{&quot;id&quot;:&quot;shu2020what&quot;,&quot;title&quot;:&quot;What Makes a Data-GIF Understandable?&quot;,&quot;authors&quot;:[&quot;Xinhuan Shu&quot;,&quot;Aoyu Wu&quot;,&quot;Junxiu Tang&quot;,&quot;Benjamin Bach&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2020,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2008.07227&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2020.3030396&quot;,&quot;link&quot;:&quot;https://data-gifs.github.io/&quot;,&quot;image&quot;:&quot;./assets/img/project/shu2020what.gif&quot;,&quot;video&quot;:&quot;https://youtu.be/vs3iucWl0qI&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;patterns&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/shu2020what.gif" />
     </div>
@@ -1078,8 +1103,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;shu2020dancingwords&quot;,&quot;title&quot;:&quot;DancingWords: Exploring Animated Word Clouds to Tell Stories&quot;,&quot;venue&quot;:&quot;JOV&quot;,&quot;year&quot;:2020,&quot;authors&quot;:[&quot;Xinhuan Shu&quot;,&quot;Jiang Wu&quot;,&quot;Xinke Wu&quot;,&quot;Hongye Liang&quot;,&quot;Weiwei Cui&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;],&quot;pdf&quot;:&quot;https://shuxinhuan.github.io/pub/dancingwords.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1007/s12650-020-00689-0&quot;,&quot;link&quot;:&quot;https://dancingwords.github.io/&quot;,&quot;video&quot;:&quot;https://dancingwords.github.io/source/video/introduction.mp4&quot;,&quot;image&quot;:&quot;./assets/img/project/shu2020dancingwords.gif&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;authoring&quot;,&quot;design&quot;],&quot;awards&quot;:[&quot;Best Paper Honorable Mention&quot;]}'>
+    
+<div class="publication tag_animation tag_authoring tag_design" data-pub='{&quot;id&quot;:&quot;shu2020dancingwords&quot;,&quot;title&quot;:&quot;DancingWords: Exploring Animated Word Clouds to Tell Stories&quot;,&quot;venue&quot;:&quot;JOV&quot;,&quot;year&quot;:2020,&quot;authors&quot;:[&quot;Xinhuan Shu&quot;,&quot;Jiang Wu&quot;,&quot;Xinke Wu&quot;,&quot;Hongye Liang&quot;,&quot;Weiwei Cui&quot;,&quot;Yingcai Wu&quot;,&quot;Huamin Qu&quot;],&quot;pdf&quot;:&quot;https://shuxinhuan.github.io/pub/dancingwords.pdf&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1007/s12650-020-00689-0&quot;,&quot;link&quot;:&quot;https://dancingwords.github.io/&quot;,&quot;video&quot;:&quot;https://dancingwords.github.io/source/video/introduction.mp4&quot;,&quot;image&quot;:&quot;./assets/img/project/shu2020dancingwords.gif&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;authoring&quot;,&quot;design&quot;],&quot;awards&quot;:[&quot;Best Paper Honorable Mention&quot;]}'>
     <div class="thumbnail">
         <img src="./assets/img/project/shu2020dancingwords.gif" />
     </div>
@@ -1129,8 +1154,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;tang2020narrative&quot;,&quot;title&quot;:&quot;Narrative Transitions in Data Videos&quot;,&quot;authors&quot;:[&quot;Junxiu Tang&quot;,&quot;Lingyun Yu&quot;,&quot;Tan Tang&quot;,&quot;Xinhuan Shu&quot;,&quot;Lu Ying&quot;,&quot;Yuhua Zhou&quot;,&quot;Peiran Ren&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;Vis&quot;,&quot;year&quot;:2020,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2009.05233&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/VIS47514.2020.00037&quot;,&quot;recording&quot;:&quot;https://www.youtube.com/watch?v=RNFCuR9DgMg&quot;,&quot;link&quot;:&quot;https://narrativetransitions.github.io/home/&quot;,&quot;image&quot;:&quot;./assets/img/project/tang2020narrative.png&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;patterns&quot;],&quot;note&quot;:&quot;Short Paper&quot;}'>
+    
+<div class="publication tag_animation tag_patterns" data-pub='{&quot;id&quot;:&quot;tang2020narrative&quot;,&quot;title&quot;:&quot;Narrative Transitions in Data Videos&quot;,&quot;authors&quot;:[&quot;Junxiu Tang&quot;,&quot;Lingyun Yu&quot;,&quot;Tan Tang&quot;,&quot;Xinhuan Shu&quot;,&quot;Lu Ying&quot;,&quot;Yuhua Zhou&quot;,&quot;Peiran Ren&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;Vis&quot;,&quot;year&quot;:2020,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/2009.05233&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/VIS47514.2020.00037&quot;,&quot;recording&quot;:&quot;https://www.youtube.com/watch?v=RNFCuR9DgMg&quot;,&quot;link&quot;:&quot;https://narrativetransitions.github.io/home/&quot;,&quot;image&quot;:&quot;./assets/img/project/tang2020narrative.png&quot;,&quot;tags&quot;:[&quot;animation&quot;,&quot;patterns&quot;],&quot;note&quot;:&quot;Short Paper&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/tang2020narrative.png" />
     </div>
@@ -1180,8 +1205,8 @@
     </div>
 </div>  <h3 class="year" href="#y2019"><span> 2019 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;chen2019timeline&quot;,&quot;title&quot;:&quot;Towards Automated Infographic Design: Deep Learning-based Auto-Generation of Extensible Timeline&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Yun Wang&quot;,&quot;Qianwen Wang&quot;,&quot;Yong Wang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2019,&quot;tags&quot;:[&quot;generation&quot;,&quot;infographics&quot;],&quot;link&quot;:&quot;https://chenzhutian.org/auto-infog-timeline&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/1907.13550&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2019.2934810&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019_2.jpg&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2019towards.gif&quot;,&quot;video&quot;:&quot;https://vimeo.com/360050115&quot;}'>
+    
+<div class="publication tag_generation tag_infographics" data-pub='{&quot;id&quot;:&quot;chen2019timeline&quot;,&quot;title&quot;:&quot;Towards Automated Infographic Design: Deep Learning-based Auto-Generation of Extensible Timeline&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Yun Wang&quot;,&quot;Qianwen Wang&quot;,&quot;Yong Wang&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2019,&quot;tags&quot;:[&quot;generation&quot;,&quot;infographics&quot;],&quot;link&quot;:&quot;https://chenzhutian.org/auto-infog-timeline&quot;,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/1907.13550&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2019.2934810&quot;,&quot;img&quot;:&quot;http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019_2.jpg&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2019towards.gif&quot;,&quot;video&quot;:&quot;https://vimeo.com/360050115&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/chen2019towards.gif" />
     </div>
@@ -1230,8 +1255,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2019narvis&quot;,&quot;title&quot;:&quot;Narvis: Authoring Narrative Slideshows for Introducing Data Visualization Designs&quot;,&quot;authors&quot;:[&quot;Qianwen Wang&quot;,&quot;Zhen Li&quot;,&quot;Siwei Fu&quot;,&quot;Weiwei Cui&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2019,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/1907.05609&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2018.2865232&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;storytelling&quot;],&quot;recording&quot;:&quot;https://vimeo.com/299869533&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2019narvis.jpg&quot;,&quot;video&quot;:&quot;https://youtu.be/bbRBzumBrX4&quot;,&quot;link&quot;:&quot;https://qianwen.info/research/Narvis/&quot;}'>
+    
+<div class="publication tag_authoring tag_storytelling" data-pub='{&quot;id&quot;:&quot;wang2019narvis&quot;,&quot;title&quot;:&quot;Narvis: Authoring Narrative Slideshows for Introducing Data Visualization Designs&quot;,&quot;authors&quot;:[&quot;Qianwen Wang&quot;,&quot;Zhen Li&quot;,&quot;Siwei Fu&quot;,&quot;Weiwei Cui&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;TVCG&quot;,&quot;year&quot;:2019,&quot;arxiv&quot;:&quot;https://arxiv.org/abs/1907.05609&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2018.2865232&quot;,&quot;tags&quot;:[&quot;authoring&quot;,&quot;storytelling&quot;],&quot;recording&quot;:&quot;https://vimeo.com/299869533&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2019narvis.jpg&quot;,&quot;video&quot;:&quot;https://youtu.be/bbRBzumBrX4&quot;,&quot;link&quot;:&quot;https://qianwen.info/research/Narvis/&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2019narvis.jpg" />
     </div>
@@ -1284,8 +1309,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;chen2019design&quot;,&quot;title&quot;:&quot;Designing Narrative Slideshows for Learning Analytics&quot;,&quot;authors&quot;:[&quot;Qing Chen&quot;,&quot;Zhen Li&quot;,&quot;Ting-Chuen Pong&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;PacificVis&quot;,&quot;year&quot;:2019,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1109/PacificVis.2019.00036&quot;,&quot;video&quot;:&quot;https://vimeo.com/290329771&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2019design.png&quot;}'>
+    
+<div class="publication tag_storytelling" data-pub='{&quot;id&quot;:&quot;chen2019design&quot;,&quot;title&quot;:&quot;Designing Narrative Slideshows for Learning Analytics&quot;,&quot;authors&quot;:[&quot;Qing Chen&quot;,&quot;Zhen Li&quot;,&quot;Ting-Chuen Pong&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;PacificVis&quot;,&quot;year&quot;:2019,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1109/PacificVis.2019.00036&quot;,&quot;video&quot;:&quot;https://vimeo.com/290329771&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2019design.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/chen2019design.png" />
     </div>
@@ -1322,8 +1347,8 @@
     </div>
 </div>  <h3 class="year" href="#y2018"><span> 2018 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2018storytelling&quot;,&quot;title&quot;:&quot;Storytelling and Visualization: An Extended Survey&quot;,&quot;authors&quot;:[&quot;Chao Tong&quot;,&quot;Richard Roberts&quot;,&quot;Rita Borgo&quot;,&quot;Sean Walton&quot;,&quot;Robert S Laramee&quot;,&quot;Kodzo Wegba&quot;,&quot;Aidong Lu&quot;,&quot;Yun Wang&quot;,&quot;Huamin Qu&quot;,&quot;Qiong Luo&quot;,&quot;Xiaojuan Ma&quot;],&quot;venue&quot;:&quot;Information&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;survey&quot;],&quot;doi&quot;:&quot;https://doi.org/10.3390/info9030065&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-89452/1/014444_1.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2018storytelling.png&quot;}'>
+    
+<div class="publication tag_storytelling tag_survey" data-pub='{&quot;id&quot;:&quot;wang2018storytelling&quot;,&quot;title&quot;:&quot;Storytelling and Visualization: An Extended Survey&quot;,&quot;authors&quot;:[&quot;Chao Tong&quot;,&quot;Richard Roberts&quot;,&quot;Rita Borgo&quot;,&quot;Sean Walton&quot;,&quot;Robert S Laramee&quot;,&quot;Kodzo Wegba&quot;,&quot;Aidong Lu&quot;,&quot;Yun Wang&quot;,&quot;Huamin Qu&quot;,&quot;Qiong Luo&quot;,&quot;Xiaojuan Ma&quot;],&quot;venue&quot;:&quot;Information&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;storytelling&quot;,&quot;survey&quot;],&quot;doi&quot;:&quot;https://doi.org/10.3390/info9030065&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-89452/1/014444_1.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2018storytelling.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2018storytelling.png" />
     </div>
@@ -1354,8 +1379,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;chen2018marvist&quot;,&quot;title&quot;:&quot;MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Yijia Su&quot;,&quot;Yifang Wang&quot;,&quot;Qianwen Wang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;authoring&quot;,&quot;immersive&quot;],&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2018_marvist/paper.pdf&quot;,&quot;link&quot;:&quot;https://chenzhutian.org/marvist&quot;,&quot;video&quot;:&quot;https://chenzhutian.org/projects/2018_marvist/video.mp4&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2019.2892415&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2018marvist.gif&quot;}'>
+    
+<div class="publication tag_authoring tag_immersive" data-pub='{&quot;id&quot;:&quot;chen2018marvist&quot;,&quot;title&quot;:&quot;MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality&quot;,&quot;authors&quot;:[&quot;Zhutian Chen&quot;,&quot;Yijia Su&quot;,&quot;Yifang Wang&quot;,&quot;Qianwen Wang&quot;,&quot;Huamin Qu&quot;,&quot;Yingcai Wu&quot;],&quot;venue&quot;:&quot;VIS&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;authoring&quot;,&quot;immersive&quot;],&quot;pdf&quot;:&quot;https://chenzhutian.org/projects/2018_marvist/paper.pdf&quot;,&quot;link&quot;:&quot;https://chenzhutian.org/marvist&quot;,&quot;video&quot;:&quot;https://chenzhutian.org/projects/2018_marvist/video.mp4&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1109/TVCG.2019.2892415&quot;,&quot;image&quot;:&quot;./assets/img/project/chen2018marvist.gif&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/chen2018marvist.gif" />
     </div>
@@ -1401,8 +1426,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2018infonice&quot;,&quot;title&quot;:&quot;InfoNice: Easy Creation of Information Graphics&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Haidong Zhang&quot;,&quot;He Huang&quot;,&quot;Xi Chen&quot;,&quot;Qiufeng Yin&quot;,&quot;Zhitao Hou&quot;,&quot;Dongmei Zhang&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;authoring&quot;,&quot;infographics&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3173574.3173909&quot;,&quot;video&quot;:&quot;https://youtu.be/gKi9XU4VoE0&quot;,&quot;recording&quot;:&quot;https://youtu.be/snqvYG-Qu4g&quot;,&quot;pdf&quot;:&quot;https://cse.hkust.edu.hk/~huamin/chi_yun_2018.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2018infonice.jpg&quot;}'>
+    
+<div class="publication tag_authoring tag_infographics" data-pub='{&quot;id&quot;:&quot;wang2018infonice&quot;,&quot;title&quot;:&quot;InfoNice: Easy Creation of Information Graphics&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Haidong Zhang&quot;,&quot;He Huang&quot;,&quot;Xi Chen&quot;,&quot;Qiufeng Yin&quot;,&quot;Zhitao Hou&quot;,&quot;Dongmei Zhang&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;CHI&quot;,&quot;year&quot;:2018,&quot;tags&quot;:[&quot;authoring&quot;,&quot;infographics&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3173574.3173909&quot;,&quot;video&quot;:&quot;https://youtu.be/gKi9XU4VoE0&quot;,&quot;recording&quot;:&quot;https://youtu.be/snqvYG-Qu4g&quot;,&quot;pdf&quot;:&quot;https://cse.hkust.edu.hk/~huamin/chi_yun_2018.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2018infonice.jpg&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2018infonice.jpg" />
     </div>
@@ -1448,8 +1473,8 @@
     </div>
 </div>  <h3 class="year" href="#y2016"><span> 2016 </span> </h3>
      
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2016edibilization&quot;,&quot;title&quot;:&quot;Data Edibilization: Representing Data with Food&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Xiaojuan Ma&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;year&quot;:2016,&quot;venue&quot;:&quot;CHI&quot;,&quot;tags&quot;:[&quot;design&quot;,&quot;agenda&quot;],&quot;note&quot;:&quot;Poster&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/2851581.2892570&quot;,&quot;recording&quot;:&quot;https://youtu.be/ivfA34fY1rk&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-77560/1/77560.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016edibilization.png&quot;}'>
+    
+<div class="publication tag_design tag_agenda" data-pub='{&quot;id&quot;:&quot;wang2016edibilization&quot;,&quot;title&quot;:&quot;Data Edibilization: Representing Data with Food&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Xiaojuan Ma&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;year&quot;:2016,&quot;venue&quot;:&quot;CHI&quot;,&quot;tags&quot;:[&quot;design&quot;,&quot;agenda&quot;],&quot;note&quot;:&quot;Poster&quot;,&quot;doi&quot;:&quot;https://doi.org/10.1145/2851581.2892570&quot;,&quot;recording&quot;:&quot;https://youtu.be/ivfA34fY1rk&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-77560/1/77560.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016edibilization.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2016edibilization.png" />
     </div>
@@ -1490,8 +1515,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2016animated&quot;,&quot;title&quot;:&quot;Animated Narrative Visualization for Video Clickstream Data&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Zhutian Chen&quot;,&quot;Quan Li&quot;,&quot;Xiaojuan Ma&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;SIGGRAPHAsia&quot;,&quot;year&quot;:2016,&quot;tags&quot;:[&quot;animation&quot;,&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3002151.3002155&quot;,&quot;pdf&quot;:&quot;https://www.microsoft.com/en-us/research/publication/animated-narrative-visualization-for-video-clickstream-data/&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016animated.jpg&quot;}'>
+    
+<div class="publication tag_animation tag_storytelling" data-pub='{&quot;id&quot;:&quot;wang2016animated&quot;,&quot;title&quot;:&quot;Animated Narrative Visualization for Video Clickstream Data&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Zhutian Chen&quot;,&quot;Quan Li&quot;,&quot;Xiaojuan Ma&quot;,&quot;Qiong Luo&quot;,&quot;Huamin Qu&quot;],&quot;venue&quot;:&quot;SIGGRAPHAsia&quot;,&quot;year&quot;:2016,&quot;tags&quot;:[&quot;animation&quot;,&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/3002151.3002155&quot;,&quot;pdf&quot;:&quot;https://www.microsoft.com/en-us/research/publication/animated-narrative-visualization-for-video-clickstream-data/&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016animated.jpg&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2016animated.jpg" />
     </div>
@@ -1522,8 +1547,8 @@
         
     </div>
 </div>  
-
-<div class="publication" data-pub='{&quot;id&quot;:&quot;wang2016guided&quot;,&quot;title&quot;:&quot;A Guided Tour of Literature Review: Facilitating Academic Paper Reading with Narrative Visualization&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Dongyu Liu&quot;,&quot;Huamin Qu&quot;,&quot;Qiong Luo&quot;,&quot;Xiaojuan Ma&quot;],&quot;venue&quot;:&quot;VINCI&quot;,&quot;year&quot;:2016,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/2968220.2968242&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-83388/1/83388.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016guided.png&quot;}'>
+    
+<div class="publication tag_storytelling" data-pub='{&quot;id&quot;:&quot;wang2016guided&quot;,&quot;title&quot;:&quot;A Guided Tour of Literature Review: Facilitating Academic Paper Reading with Narrative Visualization&quot;,&quot;authors&quot;:[&quot;Yun Wang&quot;,&quot;Dongyu Liu&quot;,&quot;Huamin Qu&quot;,&quot;Qiong Luo&quot;,&quot;Xiaojuan Ma&quot;],&quot;venue&quot;:&quot;VINCI&quot;,&quot;year&quot;:2016,&quot;tags&quot;:[&quot;storytelling&quot;],&quot;doi&quot;:&quot;https://doi.org/10.1145/2968220.2968242&quot;,&quot;pdf&quot;:&quot;https://repository.hkust.edu.hk/ir/bitstream/1783.1-83388/1/83388.pdf&quot;,&quot;image&quot;:&quot;./assets/img/project/wang2016guided.png&quot;}'>
     <div class="thumbnail">
         <img src="./assets/img/project/wang2016guided.png" />
     </div>
@@ -1971,6 +1996,64 @@
         </span> 
     </div>
 </div> -->
+
+<script src="./assets/js/d3.js"></script>
+<script>
+    let status = {
+        'all': true,
+        'storytelling': false,
+        'design': false,
+        'authoring': false
+    }
+    let tagMapping = {
+        "all": ["storytelling", "patterns","design", "authoring", "generation"],
+        "storytelling": ["storytelling", "patterns"],
+        "design": ["design", "patterns"],
+        "authoring": ["authoring", "generation"]
+    }
+    d3.select('.all-button').classed('active', true)
+
+    function filterPub(btn) {
+        const value = btn.getAttribute("data-value")
+        status[value] = !status[value]
+
+        if (value =='all' && status['all']) {
+            status['storytelling'] = false
+            status['design'] = false
+            status['authoring'] = false
+        } else if (value!= 'all') {
+            status['all'] = false
+        }
+
+        if (status['storytelling'] && status['design'] && status['authoring']) {
+            status['all'] = true 
+            status['storytelling'] = false
+            status['design'] = false
+            status['authoring'] = false
+        }
+        const tags = []
+        d3.select('.filter-panel').selectAll('div').each(function(){
+            const value = this.getAttribute("data-value")
+            if (status[value]) {
+                d3.select(this).classed('active', true)
+                tags.push(...tagMapping[value])
+            } else {
+                d3.select(this).classed('active', false)
+            }
+        })
+
+        d3.selectAll('.publication').style('display', 'none')
+        tags.forEach(v => {
+            d3.selectAll(`.tag_${v}`).style('display', 'flex')
+        })
+        
+
+
+    
+
+    
+    }
+</script>
 
 <div class="btn-back-to-top-container">
 <button type="button" class="btn btn-floating" id="btn-back-to-top">

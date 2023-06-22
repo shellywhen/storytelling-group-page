@@ -19,7 +19,7 @@ subtitle: Telling stories with data insights
             <p>
                
             </p>
-            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the <b>identification of narrative patterns in data-driven storytelling</b>, the <b>development of tools for authoring expressive visualizations</b>, and the <b>automatic generation of data stories</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
+            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the <b>investigation of novel techniques in data-driven storytelling</b>, the <b>development of tools for authoring expressive visualizations</b>, and the <b>automatic generation of data stories</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
 
                 At the core of our research lies the belief that data storytelling is not only about presenting numbers and facts but also about crafting engaging narratives that resonate with the audience. By exploring innovative visualization techniques and narrative structures, we strive to create a powerful medium that simplifies complex data insights, making them approachable and relatable to a wide range of audiences.</p>
         </div>
@@ -38,8 +38,15 @@ subtitle: Telling stories with data insights
 </div>
 
 <div id="publication" class="wrapper">
+
     <h2 class="major-title"><span>Publications</span></h2>
 
+    <div class="filter-panel">
+        <div class="all-button" data-value="all" onclick="filterPub(this)">All</div>
+        <div data-value="storytelling" onclick="filterPub(this)">Storytelling Techniques</div>
+        <div data-value="design" onclick="filterPub(this)">Data Story Design</div>
+        <div data-value="authoring" onclick="filterPub(this)">Authoring Support</div>
+    </div>
 
 
     {% assign pubyears = site.data.publication | group_by:"year" %} {% for year in pubyears %} {%-assign yeartitle = year.name | floor-%}
@@ -82,3 +89,61 @@ subtitle: Telling stories with data insights
         </span> {% endfor %}
     </div>
 </div> -->
+
+<script src="./assets/js/d3.js"></script>
+<script>
+    let status = {
+        'all': true,
+        'storytelling': false,
+        'design': false,
+        'authoring': false
+    }
+    let tagMapping = {
+        "all": ["storytelling", "patterns","design", "authoring", "generation"],
+        "storytelling": ["storytelling", "patterns"],
+        "design": ["design", "patterns"],
+        "authoring": ["authoring", "generation"]
+    }
+    d3.select('.all-button').classed('active', true)
+
+    function filterPub(btn) {
+        const value = btn.getAttribute("data-value")
+        status[value] = !status[value]
+
+        if (value =='all' && status['all']) {
+            status['storytelling'] = false
+            status['design'] = false
+            status['authoring'] = false
+        } else if (value!= 'all') {
+            status['all'] = false
+        }
+
+        if (status['storytelling'] && status['design'] && status['authoring']) {
+            status['all'] = true 
+            status['storytelling'] = false
+            status['design'] = false
+            status['authoring'] = false
+        }
+        const tags = []
+        d3.select('.filter-panel').selectAll('div').each(function(){
+            const value = this.getAttribute("data-value")
+            if (status[value]) {
+                d3.select(this).classed('active', true)
+                tags.push(...tagMapping[value])
+            } else {
+                d3.select(this).classed('active', false)
+            }
+        })
+
+        d3.selectAll('.publication').style('display', 'none')
+        tags.forEach(v => {
+            d3.selectAll(`.tag_${v}`).style('display', 'flex')
+        })
+        
+
+
+    
+
+    
+    }
+</script>
