@@ -40,6 +40,7 @@
   image: ./assets/img/project/li2023notable.png
   doi: 10.1145/3544548.3580965
 
+
 - id: geocamera
   title: "GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements"
   authors:
@@ -101,7 +102,7 @@
     - design
   arxiv: https://arxiv.org/abs/2303.14491
   doi: https://doi.org/10.1145/3544548.3580701
-  talk: https://youtu.be/M5q2fP40pd0
+  recording: https://youtu.be/M5q2fP40pd0
   image: ./assets/img/project/xu2023endings.png
 
 - id: yang2023understanding
@@ -119,7 +120,6 @@
     - animation
     - immersive
     - storytelling
-    - understanding
     - design
   pdf: https://yleni.github.io/publications/pvis23_vrdatavideo.pdf
   doi: https://doi.org/10.1109/PacificVis56936.2023.00029
@@ -229,6 +229,7 @@
   recording: https://youtu.be/MqW_5b_R-jw
   tags:
     - generation
+    - evaluation
 
 - id: yang2021explaining
   title: "Explaining with Examples Lessons Learned from Crowdsourced Introductory Description of Information Visualizations"
@@ -290,7 +291,6 @@
   recording: https://www.bilibili.com/video/BV1Sg411T7fn
   tags: 
     - generation
-    - survey
 
 - id: wang2021ml4vis
   title: "Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS"
@@ -306,7 +306,6 @@
   year: 2021
   tags:
     - generation
-    - survey
   image: ./assets/img/project/wang2021ml4vis.png
 
 - id: yuan2021infocolorizer
@@ -373,6 +372,26 @@
     - animation
     - patterns
   
+- id: li2020improving
+  title: "Improving Engagement of Animated Visualization with Visual Foreshadowing"
+  authors:
+    - Wenchao Li
+    - Yun Wang
+    - Haidong Zhang
+    - Huamin Qu
+  year: 2020
+  venue: Vis
+  note: Short Paper
+  doi: https://doi.org/10.1109/VIS47514.2020.00035
+  arxiv: https://arxiv.org/abs/2009.03784
+  slides: http://home.cse.ust.hk/~wlibs/slides/vis2020_pre_foreshadowing.pdf
+  video: https://youtu.be/9W4LjfdbKkA
+  tags:
+    - authoring
+    - animation
+    - design
+  image: ./assets/img/project/li2020animated.gif
+  
 - id: shu2020dancingwords
   title: "DancingWords: Exploring Animated Word Clouds to Tell Stories"
   venue: JOV
@@ -393,7 +412,6 @@
   tags:
     - animation
     - authoring
-    - design
   awards:
     - Best Paper Honorable Mention
 
@@ -470,7 +488,8 @@
   venue: PacificVis
   year: 2019
   tags:
-    - storytelling 
+    - storytelling
+    - design
   doi: https://doi.org/10.1109/PacificVis.2019.00036
   video: https://vimeo.com/290329771
   image: ./assets/img/project/chen2019design.png
@@ -574,6 +593,7 @@
   tags:
     - animation
     - storytelling
+    - design
   doi: https://doi.org/10.1145/3002151.3002155
   pdf: https://www.microsoft.com/en-us/research/publication/animated-narrative-visualization-for-video-clickstream-data/
   image: ./assets/img/project/wang2016animated.jpg
@@ -590,6 +610,7 @@
   year: 2016
   tags:
     - storytelling
+    - design
   doi: https://doi.org/10.1145/2968220.2968242
   pdf: https://repository.hkust.edu.hk/ir/bitstream/1783.1-83388/1/83388.pdf
   image: ./assets/img/project/wang2016guided.png

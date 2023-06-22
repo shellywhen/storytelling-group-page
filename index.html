@@ -19,7 +19,7 @@ subtitle: Telling stories with data insights
             <p>
                
             </p>
-            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the <b>investigation of novel techniques in data-driven storytelling</b>, the <b>development of tools for authoring expressive visualizations</b>, and the <b>automatic generation of data stories</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
+            <p> The Data Storytelling research team of HKUST VisLab is dedicated to exploring storytelling techniques for communicating data-driven insights with visualizations. Our research interests are wide-ranging and include the investigation of <b>novel techniques in data-driven storytelling</b> and the development of authoring tools or automatic approaches to <b>generate narrative visualizations</b>. As we delve into these topics, we aim to bridge the gap between the complex world of data analytics and the intuitive realm of human communication.
 
                 At the core of our research lies the belief that data storytelling is not only about presenting numbers and facts but also about crafting engaging narratives that resonate with the audience. By exploring innovative visualization techniques and narrative structures, we strive to create a powerful medium that simplifies complex data insights, making them approachable and relatable to a wide range of audiences.</p>
         </div>
@@ -43,9 +43,9 @@ subtitle: Telling stories with data insights
 
     <div class="filter-panel">
         <div class="all-button" data-value="all" onclick="filterPub(this)">All</div>
-        <div data-value="storytelling" onclick="filterPub(this)">Storytelling Techniques</div>
-        <div data-value="design" onclick="filterPub(this)">Data Story Design</div>
-        <div data-value="authoring" onclick="filterPub(this)">Authoring Support</div>
+        <div data-value="storytelling" onclick="filterPub(this)">Design Patterns/Guidelines</div>
+        <div data-value="design" onclick="filterPub(this)">Designing & Evaluation</div>
+        <div data-value="authoring" onclick="filterPub(this)">Authoring/Generation</div>
     </div>
 
 
@@ -100,8 +100,8 @@ subtitle: Telling stories with data insights
     }
     let tagMapping = {
         "all": ["storytelling", "patterns","design", "authoring", "generation"],
-        "storytelling": ["storytelling", "patterns"],
-        "design": ["design", "patterns"],
+        "storytelling": ["patterns", "survey"],
+        "design": ["design", "evaluation"],
         "authoring": ["authoring", "generation"]
     }
     d3.select('.all-button').classed('active', true)
@@ -109,13 +109,18 @@ subtitle: Telling stories with data insights
     function filterPub(btn) {
         const value = btn.getAttribute("data-value")
         status[value] = !status[value]
-
+        const sum = Object.values(status).reduce((a,b) => a || b, false)
+        if(!sum) {
+            status['all'] = true
+        }
         if (value =='all' && status['all']) {
             status['storytelling'] = false
             status['design'] = false
             status['authoring'] = false
-        } else if (value!= 'all') {
+        } else if (value!= 'all' && sum) {
             status['all'] = false
+        } else if (!sum) {
+            status['all'] = true
         }
 
         if (status['storytelling'] && status['design'] && status['authoring']) {

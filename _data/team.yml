@@ -102,6 +102,8 @@
   url: https://tjdi.tongji.edu.cn/TeacherDetail.do?id=5056&lang=en
   image: ./assets/img/person/alumni/qing.png
   role: alumni
+  institute: Tongji Univ.
+  title: AP
 
 
 - name: Weiwei Cui
@@ -116,6 +118,8 @@
   url: https://idvxlab.com/
   image: ./assets/img/person/alumni/nan.jpeg
   role: alumni
+  institute: Tongji Univ.
+  title: Professor
 
 # - name: MSR 
 #   image: ./assets/img/person/collaborator/msr.png
@@ -125,21 +129,26 @@
   image: ./assets/img/person/collaborator/logo_MSRA.png
   role: collaborator
 
-# - name: Adobe Research
-#   image: ./assets/img/person/collaborator/adobe.png
-#   role: collaborator
+- name: Adobe Research
+  image: ./assets/img/person/collaborator/adobe.png
+  role: collaborator
 
 # - name: CMU
 #   image: ./assets/img/person/collaborator/cmu-red.png
 #   role: collaborator
 
-# - name: UCSD
-#   image: ./assets/img/person/collaborator/ucsd.png
-#   role: collaborator
-
 - name: Harvard
   image: ./assets/img/person/collaborator/harvard.png
   role: collaborator
+
+- name: UCSD
+  image: ./assets/img/person/collaborator/ucsd.png
+  role: collaborator
+
+- name: UoE
+  image: ./assets/img/person/collaborator/edin.png
+  role: collaborator
+
 
 - name: ZJU
   image: ./assets/img/person/collaborator/zju.png
@@ -152,6 +161,5 @@
 - name: Tongji
   image: ./assets/img/person/collaborator/tongji.png
   role: collaborator
-
 
 
