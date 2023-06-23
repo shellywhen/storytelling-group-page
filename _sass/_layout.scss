@@ -155,6 +155,11 @@ nav {
     .spacefill {
         height: 50px;
     }
+    .navbar-brand {
+        span {
+            margin-right: -5px;
+        }
+    }
     .banner-container {
         div {
             padding: 0 5vw;
@@ -166,9 +171,37 @@ nav {
             }
         }
     }
-
+    h2 {
+        font-size: 1.5rem;
+    }
+    .major-title {
+        margin: 20px 0 30px;
+    }
+    .publication {
+        margin-bottom: 2vh;
+    }
+    .profile-card {
+        .parent-img {
+            width: fit-content;
+        }
+    }
+   
+    .profile-image {
+        width: 20vw !important;
+        height: 20vw !important;
+        min-height: 0 !important;
+        min-width: 0 !important;
+    }
+    .profile-name {
+        font-size: .85rem !important;
+    }
+    .profile-institute {
+        font-size: .8rem !important;
+    }
+    .profile-collaborator img {
+        max-height: 40px !important;
+    }
 }
-
 
 #news, #team {
         background-color: $extreme-light-gray;
