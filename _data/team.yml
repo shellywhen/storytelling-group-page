@@ -121,17 +121,17 @@
   institute: Tongji Univ.
   title: Professor
 
-# - name: MSR 
-#   image: ./assets/img/person/collaborator/msr.png
-#   role: collaborator
+- name: MSR 
+  image: ./assets/img/person/collaborator/msr.png
+  role: collaborator
 
 - name: MSRA
   image: ./assets/img/person/collaborator/logo_MSRA.png
   role: collaborator
 
-- name: Adobe Research
-  image: ./assets/img/person/collaborator/adobe.png
-  role: collaborator
+# - name: Adobe Research
+#   image: ./assets/img/person/collaborator/adobe.png
+#   role: collaborator
 
 # - name: CMU
 #   image: ./assets/img/person/collaborator/cmu-red.png
@@ -154,6 +154,11 @@
   image: ./assets/img/person/collaborator/zju.png
   role: collaborator
 
+
+- name: Fudan
+  image: ./assets/img/person/collaborator/fudan.png
+  role: collaborator
+
 - name: CMA-HKUST
   image: ./assets/img/person/collaborator/cma.jpg
   role: collaborator
@@ -161,5 +166,6 @@
 - name: Tongji
   image: ./assets/img/person/collaborator/tongji.png
   role: collaborator
+
 
 
