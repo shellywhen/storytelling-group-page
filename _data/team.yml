@@ -21,6 +21,11 @@
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
   role: team
 
+- name: Wai Tong
+  url: https://wtong2017.github.io/
+  image: ./assets/img/person/team/wai.png
+  role: team
+
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
@@ -129,13 +134,9 @@
   image: ./assets/img/person/collaborator/logo_MSRA.png
   role: collaborator
 
-# - name: Adobe Research
-#   image: ./assets/img/person/collaborator/adobe.png
-#   role: collaborator
-
-# - name: CMU
-#   image: ./assets/img/person/collaborator/cmu-red.png
-#   role: collaborator
+- name: Adobe Research
+  image: ./assets/img/person/collaborator/adobe.png
+  role: collaborator
 
 - name: Harvard
   image: ./assets/img/person/collaborator/harvard.png
@@ -149,7 +150,9 @@
   image: ./assets/img/person/collaborator/edin.png
   role: collaborator
 
-
+- name: northeastern
+  image: ./assets/img/person/collaborator/northeastern.png
+  role: collaborator
 - name: ZJU
   image: ./assets/img/person/collaborator/zju.png
   role: collaborator

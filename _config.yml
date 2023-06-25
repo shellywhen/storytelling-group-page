@@ -27,8 +27,8 @@ remove-ads: true
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "./assets/img/avatar-icon.png"
-img: "./assets/img/avatar-icon.png"
+avatar: "http://vis.cse.ust.hk/groups/storytelling/assets/img/avatar-icon.png"
+img: "http://vis.cse.ust.hk/groups/storytelling/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -128,10 +128,10 @@ footer-link-col: "#404040"
 
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
- - "/assets/js/color.js"
- - "/assets/js/d3.js"
- - "/assets/js/background.js"
- - "/assets/js/filter.js"
+ - "./assets/js/color.js"
+ - "./assets/js/d3.js"
+ - "./assets/js/background.js"
+ - "./assets/js/filter.js"
 
 # --- Web Analytics Section --- #
 
