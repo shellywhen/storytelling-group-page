@@ -1,4 +1,8 @@
 
+- message: "Wakey-Wakey was accepted in ACM UIST. Make your cute animated text with a meme GIF!"
+  date: 2023-08-01
+  type: pub
+
 - message: "Emordle was accepted in IEEE TVCG. Create your own animated wordle and convey emotions better."
   date: 2023-06-14
   type: pub

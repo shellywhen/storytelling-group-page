@@ -1,6 +1,9 @@
 TVCG: 
   full: IEEE Transaction on Visualization and Computer Graphics
   short: TVCG
+UIST:
+  full: Proceedings of the ACM Symposium on User Interface Software and Technology
+  short: UIST
 CHI:
   full: Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems
   short: CHI
@@ -28,3 +31,6 @@ JOV:
 VINCI:  
   full: Proceedings of the International Symposium on Visual Information Communication and Interaction
   short: VINCI
+arXiv:
+  full: arXiv Preprint
+  short: arXiv

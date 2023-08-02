@@ -1,3 +1,24 @@
+- id: wakey-wakey
+  title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
+  authors:
+    - Liwenhan Xie
+    - Zhaoyu Zhou
+    - Kerun Yu
+    - Yun Wang
+    - Huamin Qu
+    - Siming Chen
+  venue: UIST
+  year: 2023
+  doi: 10.1145/3586183.3606813
+  arxiv: https://arxiv.org/abs/2308.00224.pdf
+  tags:
+    - authoring
+    - animation
+    - design
+  code: https://github.com/KeriYuu/Wakey-Wakey
+  demo: https://youtu.be/y-pdGX8LldA
+  image: ./assets/img/project/xie2023wakey.gif
+  
 - id: xie2023emordle
   title: "Creating Emordle: Animating Word Cloud for Emotion Expression"
   authors:
@@ -19,6 +40,18 @@
   link: https://shellywhen.github.io/EmotionalWordle
   doi: 10.1109/TVCG.2023.3286392
   image: ./assets/img/project/xie2023emordle.gif
+
+- id: li2023why
+  title: "Why is AI not a Panacea for Data Workers? An Interview Study on Human-AI Collaboration in Data Storytelling"
+  authors:
+    - Haotian Li
+    - Yun Wang
+    - Vera Liao
+    - Huamin Qu
+  arxiv: https://arxiv.org/pdf/2304.08366.pdf
+  venue: arXiv
+  year: 2023
+  image: ./assets/img/project/li2023why.png
 
 - id: li2023notable
   title: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"
@@ -125,8 +158,6 @@
   doi: https://doi.org/10.1109/PacificVis56936.2023.00029
   link: https://immersivedatavideo.github.io/
   image: ./assets/img/project/yang2023understanding.png
-
-
 
 - id: lo2022misinformed
   title: "Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?"
