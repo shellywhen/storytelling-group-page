@@ -1,4 +1,8 @@
 
+- message: "One paper was accepted in IEEE VIS. Check out evaluation of different explainations for poorly designed vis."
+  date: 2023-07-10
+  type: pub
+
 - message: "Emordle was accepted in IEEE TVCG. Create your own animated wordle and convey emotions better."
   date: 2023-06-14
   type: pub
@@ -7,7 +11,7 @@
   date: 2023-01-18
   type: pub
 
-- message: "One paper was accepted in PacificVis! Check out the design of 3D data videos."
+- message: "One paper was accepted in PacificVis. Check out the design of 3D data videos."
   date: 2022-12-15
   type: pub
 

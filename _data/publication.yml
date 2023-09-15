@@ -1,3 +1,19 @@
+
+- id: lo2023why
+  title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"
+  authors:
+    - Leo Yu-Ho Lo
+    - Yifan Cao
+    - Leni Yang
+    - Huamin Qu
+  venue: VIS
+  year: 2023
+  tags:
+    - design
+  arxiv: https://arxiv.org/abs/2309.01445
+  image: ./assets/img/project/lo2023why.png
+  note: Just Accepted
+  
 - id: xie2023emordle
   title: "Creating Emordle: Animating Word Cloud for Emotion Expression"
   authors:
@@ -19,6 +35,7 @@
   link: https://shellywhen.github.io/EmotionalWordle
   doi: 10.1109/TVCG.2023.3286392
   image: ./assets/img/project/xie2023emordle.gif
+  video: "https://youtu.be/9bMoXDUu6YY?feature=shared"
 
 - id: li2023notable
   title: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"
