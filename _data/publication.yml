@@ -1,4 +1,20 @@
-
+- id: wakey-wakey
+  title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
+  authors:
+    - Liwenhan Xie
+    - Zhaoyu Zhou
+    - Kerun Yu
+    - Yun Wang
+    - Huamin Qu
+    - Siming Chen
+  venue: UIST
+  year: 2023
+  doi: 10.1145/3586183.3606813
+  arxiv: https://arxiv.org/abs/2308.00224
+  code: https://github.com/KeriYuu/Wakey-Wakey
+  video: https://youtu.be/y-pdGX8LldA
+  image: ./assets/img/project/xie2023wakey.gif
+  
 - id: lo2023why
   title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"
   authors:
