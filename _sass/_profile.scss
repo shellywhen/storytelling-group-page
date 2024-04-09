@@ -30,6 +30,14 @@
                 color: $highlight;
             }
         }
+        .profile-title {
+            color: $slight-dark-gray;
+            font-size: 0.9em;
+            font-family: 'Open Sans';
+            :hover {
+                color: $highlight;
+            }
+        }
     }
 }
 

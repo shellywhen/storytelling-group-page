@@ -4,43 +4,53 @@
   image: ./assets/img/person/team/huamin.png
   img: http://huamin.org/images/huamin_qu_new.jpg
   addr: Prof.
+  title: PI
+
+  
+- name: Xian Xu
+  url: https://xxuxian.github.io/
+  role: team
+  image: ./assets/img/person/team/xian.jpg
+  title: RAP
 
 - name: Leni Yang
   url: https://yleni.github.io/
   role: team
   image: ./assets/img/person/team/leni.png
+  title: Postoctoral Fellow
 
 - name: Wenchao Li
-  url: http://home.cse.ust.hk/~wlibs/
+  url: https://wenchao.li/
   image: ./assets/img/person/team/wenchao.png
-  role: team
+  role: alumni
+  institute: Huawei
+  title: Researcher
+  
 
 - name: Leo Yu-Ho Lo
   url: https://leoyuholo.com/
   image: ./assets/img/person/team/leo.jpg
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
   role: team
+  title: PhD Candidate
 
 - name: Wai Tong
   url: https://wtong2017.github.io/
   image: ./assets/img/person/team/wai.png
-  role: team
+  role: alumni
+  institute: TAMU
+  title: AP
+
 
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
   image: ./assets/img/person/team/linping.png
   role: team
+  title: PhD Candidate
 
-- name: Xian Xu
-  url: https://xxuxian.github.io/
-  role: team
-  image: ./assets/img/person/team/xian.jpg
 
-- name: Yifan Cao
-  url: https://scholar.google.com/citations?user=2pLiEysAAAAJ&hl=en
-  image: ./assets/img/person/team/yifan.png
-  role: team
+
 
 
 - name: Haotian Li
@@ -48,6 +58,8 @@
   img: https://haotian-li.com/photo_2.jpg
   image: ./assets/img/person/team/haotian.jpg
   role: team
+  title: PhD Candidate
+
 
 
 - name: Liwenhan Xie
@@ -55,19 +67,30 @@
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/wenhan_2.jpg
   image: ./assets/img/person/team/liwenhan.png
   role: team
+  title: PhD Candidate
 
-- name: Xinhuan Shu
-  url: https://shuxinhuan.github.io/
-  img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
-  image: ./assets/img/person/team/xinhuan.png
-  role: alumni
-  institute: U. Edin
-  title: postdoc
+  
+
+- name: Yifan Cao
+  url: https://scholar.google.com/citations?user=2pLiEysAAAAJ&hl=en
+  image: ./assets/img/person/team/yifan.png
+  role: team
+  title: PhD Candidate
+
+
+- name: Leixian Shen
+  url: https://shenleixian.github.io/
+  img: https://shenleixian.github.io/images/Leixian1.jpg
+  image: ./assets/img/person/team/leixian.png
+  role: team
+  title: PhD Student
+
+
 
 - name: Yifang Wang
   url: https://wangyifang.top/
   image: ./assets/img/person/alumni/yifang.png
-  title: postdoc
+  title: Postdoc
   institute: Northwestern
   role: alumni
 
@@ -76,23 +99,31 @@
   img: https://wowjyu.github.io/img/gallery19.5bfd1808.jpg
   image: ./assets/img/person/alumni/aoyu.png
   role: alumni
-  title: postdoc
+  title: Postdoc
   institute: Harvard
+
+- name: Xinhuan Shu
+  url: https://shuxinhuan.github.io/
+  img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
+  image: ./assets/img/person/team/xinhuan.png
+  role: alumni
+  institute: Newcastle Univ.
+  title: AP
 
 - name: Qianwen Wang
   url: https://qianwen.info/
   img: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jtSR4hoAAAAJ&citpid=1
   image: ./assets/img/person/alumni/qianwen.png
   role: alumni
-  institute: Harvard
-  title: postdoc
+  institute: UMN
+  title: AP
 
 - name: Zhutian Chen
   url: https://chenzhutian.org/
   image: ./assets/img/person/alumni/zhutian.png
   role: alumni
-  institute: Harvard
-  title: postdoc
+  institute: UMN
+  title: AP
 
 - name: Yun Wang
   url: https://www.microsoft.com/en-us/research/people/wangyun/
