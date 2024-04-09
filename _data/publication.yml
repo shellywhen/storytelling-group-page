@@ -168,8 +168,8 @@
     - Huamin Qu
   venue: CHI
   year: 2023
-  pdf: https://arxiv.org/pdf/2303.06460.pdf
-  video: https://youtu.be/SFBmBSHjKpA
+  arxiv: https://arxiv.org/pdf/2303.06460.pdf
+  demo: https://youtu.be/SFBmBSHjKpA
   highlight: 3
   doi: 10.1145/3544548.3581470
   image: ./assets/img/project/li2023geocamera.gif
