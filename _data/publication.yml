@@ -78,7 +78,6 @@
   image: ./assets/img/project/xie2023wakey.gif
   slides: https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/ET6Huxsj6tlNu7WsGoxerYYB2ekgehIpXc0QGx3qCGunUQ?e=RCUlBc
   recording: https://youtu.be/71bf2j5oEVM
-  video: https://youtu.be/y-pdGX8LldA
   
 - id: lo2023why
   title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"
