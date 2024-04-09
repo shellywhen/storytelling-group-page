@@ -19,13 +19,6 @@
   image: ./assets/img/person/team/leni.png
   title: Postoctoral Fellow
 
-- name: Wenchao Li
-  url: https://wenchao.li/
-  image: ./assets/img/person/team/wenchao.png
-  role: alumni
-  institute: Huawei
-  title: Researcher
-  
 
 - name: Leo Yu-Ho Lo
   url: https://leoyuholo.com/
@@ -33,13 +26,6 @@
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
   role: team
   title: PhD Candidate
-
-- name: Wai Tong
-  url: https://wtong2017.github.io/
-  image: ./assets/img/person/team/wai.png
-  role: alumni
-  institute: TAMU
-  title: AP
 
 
 - name: Linping Yuan
@@ -85,14 +71,23 @@
   role: team
   title: PhD Student
 
-
-
-- name: Yifang Wang
-  url: https://wangyifang.top/
-  image: ./assets/img/person/alumni/yifang.png
-  title: Postdoc
-  institute: Northwestern
+  
+- name: Wenchao Li
+  url: https://wenchao.li/
+  image: ./assets/img/person/alumni/wenchao.png
   role: alumni
+  institute: Huawei
+  title: Researcher
+  
+
+
+- name: Wai Tong
+  url: https://wtong2017.github.io/
+  image: ./assets/img/person/alumni/wai.png
+  role: alumni
+  institute: TAMU
+  title: AP
+
 
 - name: Aoyu Wu
   url: https://wowjyu.github.io/
@@ -102,10 +97,17 @@
   title: Postdoc
   institute: Harvard
 
+- name: Yifang Wang
+  url: https://wangyifang.top/
+  image: ./assets/img/person/alumni/yifang.png
+  title: Postdoc
+  institute: Northwestern
+  role: alumni
+
 - name: Xinhuan Shu
   url: https://shuxinhuan.github.io/
   img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
-  image: ./assets/img/person/team/xinhuan.png
+  image: ./assets/img/person/alumni/xinhuan.png
   role: alumni
   institute: Newcastle Univ.
   title: AP
