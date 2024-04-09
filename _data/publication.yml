@@ -78,6 +78,26 @@
   image: ./assets/img/project/xie2023wakey.gif
   slides: https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/ET6Huxsj6tlNu7WsGoxerYYB2ekgehIpXc0QGx3qCGunUQ?e=RCUlBc
   recording: https://youtu.be/71bf2j5oEVM
+  video: https://youtu.be/y-pdGX8LldA
+  
+- id: lo2023why
+  title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"
+  authors:
+    - Leo Yu-Ho Lo
+    - Yifan Cao
+    - Leni Yang
+    - Huamin Qu
+  venue: VIS
+  year: 2023
+  tags:
+    - design
+  arxiv: https://arxiv.org/abs/2309.01445
+  image: ./assets/img/project/lo2023why.png
+  doi: 10.1109/TVCG.2023.3327155
+  demo: https://youtu.be/Bwdk5t-Qy0A?si=yORt3-wCbx4yqWpF
+  recording: https://youtu.be/966i7IF1IEI?si=TnCDcD0sK7qzihek
+
+
   
 - id: xie2023emordle
   title: "Creating Emordle: Animating Word Cloud for Emotion Expression"
