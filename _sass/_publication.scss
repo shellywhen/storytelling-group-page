@@ -46,9 +46,11 @@
             color: black;
             font-weight: 500;
             a {
-                color: $dark-gray;
+                color: black;
+                text-decoration: underline #dfa5e1 2px dashed;
                 &:hover {
                     color: $highlight;
+                    text-decoration: underline $highlight 2px dashed;;
                 }
             }
         }
