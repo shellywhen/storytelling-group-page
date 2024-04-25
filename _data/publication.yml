@@ -1,21 +1,21 @@
-- id: liu2024dynamic
-  title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
-  authors:
-    - Zichen Liu*
-    - Yihao Meng*
-    - Hao Ouyang
-    - Yue Yu
-    - Bolin Zhao
-    - Daniel Cohen-Or
-    - Huamin Qu
-  venue: arXiv
-  year: 2024
-  arxiv: https://arxiv.org/abs/2404.11614
-  tags:
-    - animation
-    - generation
-  image: ./assets/img/project/liu2024dynamic.gif
-  link: https://animate-your-word.github.io/demo/
+# - id: liu2024dynamic
+#   title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
+#   authors:
+#     - Zichen Liu*
+#     - Yihao Meng*
+#     - Hao Ouyang
+#     - Yue Yu
+#     - Bolin Zhao
+#     - Daniel Cohen-Or
+#     - Huamin Qu
+#   venue: arXiv
+#   year: 2024
+#   arxiv: https://arxiv.org/abs/2404.11614
+#   tags:
+#     - animation
+#     - generation
+#   image: ./assets/img/project/liu2024dynamic.gif
+#   link: https://animate-your-word.github.io/demo/
 
 - id: li2024where
   title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
@@ -33,6 +33,8 @@
     - generation
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
+  awards:
+    - Honorable Mention Award
 - id: wang2024outlinespark
   title: "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines"
   authors:
@@ -74,6 +76,22 @@
   image: ./assets/img/project/zhou2024understanding.png
   note: Collaborated Project
 
+- id: tong2024vistellar
+  title: "VisTellAR: Embedding Data Visualization to Short-form Videos Using Mobile Augmented Reality"
+  authors:
+    - Wai Tong
+    - Kento Shigyo
+    - Linping Yuan
+    - Mingming Fan
+    - Ting-Chuen Pong
+    - Huamin Qu
+  venue: TVCG
+  year: 2024
+  doi: 10.1109/TVCG.2024.3372104
+  image: ./assets/img/project/tong2024vistellar.jpg
+  note: Early Access
+  tags: 
+    - design
 
 - id: xie2024wakey-wakey
   title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"

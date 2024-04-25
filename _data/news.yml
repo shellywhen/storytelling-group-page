@@ -1,3 +1,7 @@
+- message: "Congrats to Haotian for winning the Honorabl Mention Award at ACM CHI 2024!"
+  date: 2024-04-26
+  type: pub
+
 - message: "Two papers were accepted in ACM CHI! Check out our survey on human-AI collaboration in data storytelling and authoring approach on notebook."
   date: 2024-01-18
   type: pub
@@ -22,18 +26,18 @@
   date: 2023-06-14
   type: pub
 
-- message: "Four papers were accepted in ACM CHI!"
-  date: 2023-01-18
-  type: pub
+# - message: "Four papers were accepted in ACM CHI!"
+#   date: 2023-01-18
+#   type: pub
 
-- message: "One paper was accepted in PacificVis! Check out the design of 3D data videos."
-  date: 2022-12-15
-  type: pub
+# - message: "One paper was accepted in PacificVis! Check out the design of 3D data videos."
+#   date: 2022-12-15
+#   type: pub
 
-- message: "One paper about misinformative vis was accepted in EuroVis!"
-  date: 2022-04-01
-  type: pub
+# - message: "One paper about misinformative vis was accepted in EuroVis!"
+#   date: 2022-04-01
+#   type: pub
 
-- message: "One paper accepted in CHI! Check out cinematic data video opennings."
-  date: 2022-01-18
-  type: pub
+# - message: "One paper accepted in CHI! Check out cinematic data video opennings."
+#   date: 2022-01-18
+#   type: pub
