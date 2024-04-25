@@ -5,7 +5,6 @@
   img: http://huamin.org/images/huamin_qu_new.jpg
   addr: Prof.
   title: PI
-
   
 - name: Xian Xu
   url: https://xxuxian.github.io/
@@ -68,6 +67,20 @@
   url: https://shenleixian.github.io/
   img: https://shenleixian.github.io/images/Leixian1.jpg
   image: ./assets/img/person/team/leixian.png
+  role: team
+  title: PhD Student
+
+- name: Zichen Liu
+  url: https://zliucz.github.io/
+  img: https://zliucz.github.io/images/zichen.jpg
+  image: ./assets/img/person/team/zichen.png
+  role: team
+  title: PhD Student
+
+- name: Yihao Meng
+  url: https://yihao-meng.github.io/
+  img: https://yihao-meng.github.io/images/yihao.jpg
+  image: ./assets/img/person/team/yihao.png
   role: team
   title: PhD Student
 
@@ -190,7 +203,6 @@
   image: ./assets/img/person/collaborator/zju.png
   role: collaborator
 
-
 - name: Fudan
   image: ./assets/img/person/collaborator/fudan.png
   role: collaborator
@@ -199,6 +211,10 @@
   image: ./assets/img/person/collaborator/cma.jpg
   role: collaborator
 
+
+- name: TAU
+  image: ./assets/img/person/collaborator/tau.png
+  role: collaborator
 - name: Tongji
   image: ./assets/img/person/collaborator/tongji.png
   role: collaborator

@@ -40,6 +40,17 @@ $gray: #c0bebe;
   }
 }
 
+#news {
+    ul {
+  list-style-position: outside;
+  padding: 0 0 0 1rem;
+  margin: 0;
+  li::marker {
+    color: $highlight;
+  }
+}
+}
+
 $shadow-color: #e5dbe7;
 @keyframes bounce{
     100%{
