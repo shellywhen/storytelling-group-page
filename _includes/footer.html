@@ -1,6 +1,8 @@
 <footer>
     <div class="container-md beautiful-jekyll-footer">
         <div class="row">
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=eecbef&w=313&t=tt&d=cOFmAXGdy56-tJBbvxYsMCpNYRmSZHyRA4_1gHS7oVY&co=f5f2fb&ct=000000&cmo=5a9dfc&cmn=f27676'></script>
+
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                 <!-- {% include social-networks-links.html %} -->
                 <!-- {% if page.footer-extra %}
@@ -10,14 +12,14 @@
           {% endfor %}
         </div>
       {% endif %} -->
-                <p class="copyright text-muted">
+                <p class="copyright">
                     <!-- {% if site.author %}
         {{ site.author }}
         &nbsp;&bull;&nbsp;
       {% endif %} -->
                     {% if site.url-pretty %}
                     <span class="author-site">
-        <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
+        <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}"><b>{{ site.url-pretty }}</b></a>
       </span> {% endif %} &nbsp;&bull;&nbsp; Latest Update: {{ site.time | date: '%B %Y' }} {% if site.matomo %} {% if site.matomo.opt-out %} &nbsp;&bull;&nbsp;
                     <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a> {% endif %} {% endif%}
                 </p>
@@ -27,6 +29,7 @@
                     Created & Maintained by {{ site.created_by }}
                 </p>
                 {% endif %}
+
 
                 <!-- {% if site.maintained_by %}
       <p class="theme-by text-muted">
