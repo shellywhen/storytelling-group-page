@@ -22,13 +22,13 @@
   date: 2023-07-15
   type: pub
 
-- message: "One paper was accepted in IEEE VIS! Check out evaluation of different explainations for poorly designed vis."
-  date: 2023-07-10
-  type: pub
+# - message: "One paper was accepted in IEEE VIS! Check out evaluation of different explainations for poorly designed vis."
+#   date: 2023-07-10
+#   type: pub
 
-- message: "Emordle was accepted in IEEE TVCG! Create your own animated wordle and convey emotions better."
-  date: 2023-06-14
-  type: pub
+# - message: "Emordle was accepted in IEEE TVCG! Create your own animated wordle and convey emotions better."
+#   date: 2023-06-14
+#   type: pub
 
 # - message: "Four papers were accepted in ACM CHI!"
 #   date: 2023-01-18

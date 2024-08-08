@@ -139,7 +139,7 @@
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
   awards:
-    - Honorable Mention Award
+    - Best Paper Honorable Mention
 - id: wang2024outlinespark
   title: "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines"
   authors:
