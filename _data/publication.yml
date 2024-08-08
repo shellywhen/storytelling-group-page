@@ -17,6 +17,110 @@
 #   image: ./assets/img/project/liu2024dynamic.gif
 #   link: https://animate-your-word.github.io/demo/
 
+- id: wang2024wonderflow
+  title: "WonderFlow: Narration-Centric Design of Animated Data Videos"
+  authors:
+    - Yun Wang*
+    - Leixian Shen*
+    - Yizhi Zhang
+    - Haidong Zhang
+    - Yun Wang
+  venue: TVCG
+  year: 2024
+  arxiv: https://arxiv.org/abs/2308.04703
+  doi: 10.1109/TVCG.2023.3327197
+  link:  https://datavideos.github.io/WonderFlow/#/homepage
+  image: ./assets/img/project/wang2024wonderflow.png
+  tags:
+    - storytelling
+    - design
+    - animation
+  
+- id: lo2024howgood
+  title: "How Good (Or Bad) Are LLMs at Detecting Misleading Visualizations?"
+  authors:
+    - Leo Yu-Ho Lo
+    - Huamin Qu
+  arxiv: https://arxiv.org/abs/2407.17291
+  year: 2024
+  venue: VIS
+  tags:
+    - evaluation
+  image: ./assets/img/project/lo2024howgood.png
+
+- id: yu2024pygwalker
+  title: "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis"
+  authors:
+    - Yue Yu
+    - Leixian Shen
+    - Fei Long
+    - Huamin Qu
+    - Hao Chen
+  venue: Vis
+  year: 2024
+  note: Short Paper
+  tags:
+    - authoring
+  arxiv: https://arxiv.org/abs/2406.11637
+  code: https://github.com/Kanaries/pygwalker
+  image: ./assets/img/project/yu2024pygwalker.gif
+
+
+- id: shen2024datadirector
+  title: "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems"
+  authors:
+    - Leixian Shen
+    - Haotian Li
+    - Yun Wang
+    - Huamin Qu
+  venue: Companion Workshop in IEEE VIS Conference on Data Storytelling in an Era of Generative AI (Gen4DS)
+  year: 2024
+  tags:
+    - storytelling
+    - generation
+  arxiv: https://arxiv.org/abs/2408.03876
+  image: ./assets/img/project/shen2024datadirector.png
+
+- id: ouyang2024noteplayer
+  title: "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes"
+  authors:
+    - Yang Ouyang
+    - Leixian Shen
+    - Yun Wang
+    - Quan Li
+  arxiv: https://arxiv.org/abs/2408.01101
+  venue: UIST 
+  year: 2024
+  tags:
+    - generation
+    - animation
+  image: ./assets/img/project/ouyang2024noteplayer.png
+  note: Collaborated Project
+
+- id: ying2024reviving
+  title: "Reviving Static Charts into Live Charts"
+  authors:
+    - Lu Ying
+    - Yun Wang
+    - Haotian Li
+    - Shuguang Dou
+    - Haidong Zhang
+    - Xinyang Jiang
+    - Huamin Qu
+    - Yingcai Wu
+  venue: TVCG
+  year: 2024
+  arxiv: https://arxiv.org/abs/2309.02967
+  tags:
+    - animation
+    - authoring
+    - storytelling
+    - generation
+  doi: 10.1109/TVCG.2024.3397004
+  image: ./assets/img/project/ying2024livechart.png
+  note: Collaborated Project
+
+
 - id: li2024where
   title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
   authors:
@@ -31,6 +135,7 @@
   tags:
     - authoring
     - generation
+    - patterns
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
   awards:
