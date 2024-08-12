@@ -43,15 +43,19 @@
         .authors {
             line-height: 1.1;
             margin-bottom: 5px;
-            color: black;
-            font-weight: 500;
+            color: $dark-gray;
+            font-weight: 400;
             a {
-                color: black;
-                text-decoration: underline #dfa5e1 2px dashed;
+                color: $dark-gray;
+                text-decoration: underline #dfa5e1 2px solid;
                 &:hover {
                     color: $highlight;
-                    text-decoration: underline $highlight 2px dashed;;
+                    text-decoration: underline $highlight 2px solid;;
                 }
+            }
+            .author_vislab {
+                font-weight: 600;
+                color: black;
             }
         }
         .venue {

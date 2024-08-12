@@ -49,6 +49,14 @@ subtitle: Research group investigating communication of data-driven insights wit
         <div data-value="authoring" onclick="filterPub(this)">Authoring/Generation</div>
     </div>
 
+    <div class="publication">
+        <div class="publication-content">
+            <div class="authors">
+                <a>Underline</a> highlights VisLab members and alumni, while <a class="author_vislab">bold</a> highlights works done as an active Vislab member.
+            </div>
+        </div>
+    </div>
+
 
     {% assign pubyears = site.data.publication | group_by:"year" %} {% for year in pubyears %} {%-assign yeartitle = year.name | floor-%}
     <h3 class="year" href="#y{{ year.name }}"><span> {{ yeartitle }} </span> </h3>
