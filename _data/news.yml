@@ -1,3 +1,11 @@
+- message: "PyGWalker received the Best Short Paper Award in IEEE VIS!"
+  date: 2024-08-23
+  type: award
+
+# - message: "Congrats to Haotian Li and Yu-Ho Lo for successfully defending their PhD theses!"
+#   date: 2023-08-25
+#   type: graduation
+
 - message: "Two papers, one short paper, and one workshop paper were accpeted in IEEE VIS!"
   date: 2024-07-25
   type: pub
@@ -10,13 +18,13 @@
   date: 2024-01-18
   type: pub
 
-- message: "Congrats to Wenchao Li for successfully defending his PhD thesis titled *Interactive Visualization Systems for Narrative-Driven Data Exploration and Communication*!"
-  date: 2023-08-25
-  type: graduation
+# - message: "Congrats to Wenchao Li for successfully defending his PhD thesis titled *Interactive Visualization Systems for Narrative-Driven Data Exploration and Communication*!"
+#   date: 2023-08-25
+#   type: graduation
 
-- message: "Congrats to Xian Xu for successfully defending her PhD thesis titled *Data-driven Storytelling Videos: Cinematic Guidelines and Design Space*!"
-  date: 2023-08-18
-  type: graduation
+# - message: "Congrats to Xian Xu for successfully defending her PhD thesis titled *Data-driven Storytelling Videos: Cinematic Guidelines and Design Space*!"
+#   date: 2023-08-18
+#   type: graduation
 
 - message: "One paper was accepted in ACM UIST! Wake up static text with deformation :D"
   date: 2023-07-15

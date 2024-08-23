@@ -1,22 +1,3 @@
-# - id: liu2024dynamic
-#   title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
-#   authors:
-#     - Zichen Liu*
-#     - Yihao Meng*
-#     - Hao Ouyang
-#     - Yue Yu
-#     - Bolin Zhao
-#     - Daniel Cohen-Or
-#     - Huamin Qu
-#   venue: arXiv
-#   year: 2024
-#   arxiv: https://arxiv.org/abs/2404.11614
-#   tags:
-#     - animation
-#     - generation
-#   image: ./assets/img/project/liu2024dynamic.gif
-#   link: https://animate-your-word.github.io/demo/
-
 - id: wang2024wonderflow
   title: "WonderFlow: Narration-Centric Design of Animated Data Videos"
   authors:
@@ -62,6 +43,8 @@
   venue: Vis
   year: 2024
   note: Short Paper
+  awards:
+    - Best Short Paper Award
   tags:
     - authoring
   arxiv: https://arxiv.org/abs/2406.11637
@@ -223,6 +206,25 @@
   image: ./assets/img/project/xie2023wakey.gif
   slides: https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/ET6Huxsj6tlNu7WsGoxerYYB2ekgehIpXc0QGx3qCGunUQ?e=RCUlBc
   recording: https://youtu.be/71bf2j5oEVM
+
+- id: liu2024dynamic
+  title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
+  authors:
+    - Zichen Liu*
+    - Yihao Meng*
+    - Hao Ouyang
+    - Yue Yu
+    - Bolin Zhao
+    - Daniel Cohen-Or
+    - Huamin Qu
+  venue: arXiv
+  year: 2024
+  arxiv: https://arxiv.org/abs/2404.11614
+  tags:
+    - animation
+    - generation
+  image: ./assets/img/project/liu2024dynamic.gif
+  link: https://animate-your-word.github.io/demo/
   
 - id: lo2023why
   title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"

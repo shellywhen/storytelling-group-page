@@ -5,13 +5,15 @@
         <img src="{{ pub.image  }}" />
     </div>
     <div class="publication-content">
-        <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="award-icon fas fa-{% if award == " Best Paper Award " %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
+        <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="award-icon fas fa-{% if award == "Best Short Paper Award" %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
         <div class="authors">
             {% for author in pub.authors %}
                 {% assign name = author | replace: "*", "" %}
                 {%- assign data = site.data.people[name] -%}
-                {%- if data.url -%}
-                    <a href="{{ data.url }}" target="_blank">{%- if data.vislab > pub.year or author.vislab -%}<span class="author_vislab">{{ name }}</span>{%- else -%}<span>{{
+                {%- if data.start and pub.year < data.start -%}
+                <span>{{ author }}</span>
+                {%- elsif data.url -%}
+                    <a href="{{ data.url }}" target="_blank">{%- if data.vislab > pub.year or author.vislab -%}<span class="author_vislab">{{ author }}</span>{%- else -%}<span>{{
         author }}</span>{%- endif -%}</a>
                 {%- else -%}
                 <span>{{ author }}</span>

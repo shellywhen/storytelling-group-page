@@ -12,19 +12,7 @@
   image: ./assets/img/person/team/xian.jpg
   title: RAP
 
-- name: Leni Yang
-  url: https://yleni.github.io/
-  role: team
-  image: ./assets/img/person/team/leni.png
-  title: Postdoc
 
-
-- name: Leo Yu-Ho Lo
-  url: https://leoyuholo.com/
-  image: ./assets/img/person/team/leo.jpg
-  img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
-  role: team
-  title: PhD Candidate
 
 
 - name: Linping Yuan
@@ -32,19 +20,7 @@
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
   image: ./assets/img/person/team/linping.png
   role: team
-  title: PhD Candidate
-
-
-
-
-
-- name: Haotian Li
-  url: https://haotian-li.com/
-  img: https://haotian-li.com/photo_2.jpg
-  image: ./assets/img/person/team/haotian.jpg
-  role: alumni
-  title: Researcher
-  institute: MSRA
+  title: RAP
 
 
 
@@ -84,6 +60,65 @@
   image: ./assets/img/person/team/yihao.png
   role: team
   title: PhD Student
+  
+- name: Zheng Wei
+  url: https://scholar.google.com.hk/citations?user=CwYEjIYAAAAJ&hl=zh-CN
+  image: ./assets/img/person/team/zheng.jpeg
+  role: team
+  title: PhD Student
+
+- name: Jiayi Zhou
+  url: https://jiayzhou.github.io/
+  image: ./assets/img/person/team/jiayi.png
+  role: team
+  title: PhD Student
+
+- name: Runhua Zhang
+  url: https://www.runhuazhang.com/
+  image: ./assets/img/person/team/runhua.jpeg
+  role: team
+  title: PhD Student
+
+- name: Yuying Tang
+  url: https://jiayzhou.github.io/
+  image: ./assets/img/person/team/yuying.jpeg
+  role: team
+  title: PhD Student
+
+- name: Hanlu Ma
+  url: https://www.behance.net/9129259349cda?locale=nb_NO
+  image: ./assets/img/person/team/hanlu.png
+  role: team
+  title: PhD Student
+
+
+
+
+
+- name: Leni Yang
+  url: https://yleni.github.io/
+  role: alumni
+  image: ./assets/img/person/team/leni.png
+  title: Postdoc
+  institute: Inria
+
+
+- name: Leo Yu-Ho Lo
+  url: https://leoyuholo.com/
+  image: ./assets/img/person/alumni/leo.png
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
+  role: alumni
+  title: PhD
+  institute: "TBA"
+
+- name: Haotian Li
+  url: https://haotian-li.com/
+  img: https://haotian-li.com/photo_2.jpg
+  image: ./assets/img/person/team/haotian.jpg
+  role: alumni
+  title: Researcher
+  institute: MSRA
+
 
   
 - name: Wenchao Li
