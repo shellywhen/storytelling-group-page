@@ -19,7 +19,24 @@
     - storytelling
     - design
     - animation
-  
+
+
+- id: wei2024hero
+  title: "Telling Data Stories with the Hero’s Journey: Design Guidance for Creating Data Videos"
+  authors:
+    - Wei Zheng
+    - Huamin Qu
+    - Xian Xu
+  venue: VIS
+  year: 2024
+  pdf: ./assets/papers/2024-VIS-Hero.pdf
+  tags:
+    - storytelling
+    - patterns
+    - animation
+    - design
+  image: ./assets/img/project/wei2024hero.png
+
 - id: lo2024howgood
   title: "How Good (Or Bad) Are LLMs at Detecting Misleading Visualizations?"
   authors:
