@@ -1,3 +1,22 @@
+- id: shen2024dataplaywright
+  title: "Data Playwright: Authoring Data Videos with Annotated Narration"
+  authors:
+    - Leixian Shen
+    - Haotian Li
+    - Yun Wang
+    - Tianqi Luo
+    - Yuyu Luo
+    - Huamin Qu
+  venue: TVCG
+  year: 2024
+  link: https://datavideos.github.io/DataPlaywright/
+  image: ./assets/img/project/shen2024dataplaywright.png
+  arXiv: https://arxiv.org/abs/2410.03093
+  tags:
+    - storytelling
+    - authoring
+    - animation
+  
 - id: wang2024wonderflow
   title: "WonderFlow: Narration-Centric Design of Animated Data Videos"
   authors:
@@ -19,7 +38,6 @@
     - storytelling
     - design
     - animation
-
 
 - id: wei2024hero
   title: "Telling Data Stories with the Hero’s Journey: Design Guidance for Creating Data Videos"
@@ -68,7 +86,6 @@
   code: https://github.com/Kanaries/pygwalker
   image: ./assets/img/project/yu2024pygwalker.gif
 
-
 - id: shen2024datadirector
   title: "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems"
   authors:
@@ -98,6 +115,24 @@
     - generation
     - animation
   image: ./assets/img/project/ouyang2024noteplayer.png
+  note: Collaborated Project
+
+
+- id: shao2024narrativeplayer
+  title: "Narrative Player: Reviving Data Narratives with Visuals"
+  authors:
+    - Zekai Shao
+    - Leixian Shen
+    - Haotian Li
+    - Yi Shan
+    - Huamin Qu
+    - Yun Wang
+    - Siming Chen
+  venue: arXiv
+  arxiv: https://arxiv.org/abs/2410.03268
+  link: https://datavideos.github.io/Narrative_Player/
+  image: ./assets/img/project/shao2024narrativeplayer.png
+  year: 2024
   note: Collaborated Project
 
 - id: ying2024reviving

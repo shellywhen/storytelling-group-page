@@ -12,9 +12,6 @@
   image: ./assets/img/person/team/xian.jpg
   title: RAP
 
-
-
-
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
@@ -22,16 +19,12 @@
   role: team
   title: RAP
 
-
-
 - name: Liwenhan Xie
   url: https://shellywhen.github.io/
   img: http://vis.cse.ust.hk/vislab_homepage/img/people/wenhan_2.jpg
   image: ./assets/img/person/team/liwenhan.png
   role: team
   title: PhD Candidate
-
-  
 
 - name: Yifan Cao
   url: https://scholar.google.com/citations?user=2pLiEysAAAAJ&hl=en
@@ -44,13 +37,6 @@
   url: https://shenleixian.github.io/
   img: https://shenleixian.github.io/images/Leixian1.jpg
   image: ./assets/img/person/team/leixian.png
-  role: team
-  title: PhD Student
-
-- name: Zichen Liu
-  url: https://zliucz.github.io/
-  img: https://zliucz.github.io/images/zichen.jpg
-  image: ./assets/img/person/team/zichen.png
   role: team
   title: PhD Student
 
