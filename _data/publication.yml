@@ -1,3 +1,248 @@
+- id: datawink
+  title: "DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models"
+  authors:
+    - Liwenhan Xie
+    - Yanna Lin
+    - Can Liu
+    - Huamin Qu
+    - Xinhuan Shu
+  venue: VIS
+  year: 2025
+  note:  Just Accepted
+  tags:
+    - authoring
+    - animation
+  link: https://shellywhen.github.io/projects/DataWink
+  video: https://youtu.be/hSWl-XKrv88
+  arxiv: https://arxiv.org/abs/2507.17734
+  image: ./assets/img/project/xie2025datawink.gif
+
+- id: liu2024dynamic
+  title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
+  authors:
+    - Zichen Liu*
+    - Yihao Meng*
+    - Hao Ouyang
+    - Yue Yu
+    - Bolin Zhao
+    - Daniel Cohen-Or
+    - Huamin Qu
+  venue: ICCV
+  year: 2025
+  arxiv: https://arxiv.org/abs/2404.11614
+  tags:
+    - animation
+    - generation
+  image: ./assets/img/project/liu2024dynamic.gif
+  link: https://animate-your-word.github.io/demo/
+  awards:
+    - Best Paper Honorable Mention
+- id: kentaro2025insitutale
+  title: "InSituTale: Enhancing Augmented Data Storytelling with Physical Objects"
+  authors:
+    - Kentaro Takahira
+    - Yue Yu
+    - Takanori Fujiwara
+    - Ryo Suzuki
+    - Huamin Qu
+  venue: UIST
+  year: 2025
+  arxiv: https://arxiv.org/abs/2507.21411
+  doi: 10.1145/3746059.3747713
+  image: ./assets/img/project/kentaro2025insitutale.png
+  tags:
+    - design
+    - authoring
+  video: https://youtu.be/YI6SIZWQYUk
+- id: zhang2025paperbridge
+  title: "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration"
+  authors:
+    - Runhua Zhang
+    - Yang Ouyang
+    - Leixian Shen
+    - Yuying Tang
+    - Xiaojuan Ma
+    - Huamin Qu
+    - Xian Xu
+  venue: UIST
+  year: 2025
+  tags:
+    - generation
+    - patterns
+  arxiv: https://arxiv.org/abs/2507.14527
+  doi: 10.1145/3746059.3747713
+  image: ./assets/img/project/zhang2025paperbridge.png
+  demo: https://www.youtube.com/watch?v=dN8BIjsodwE
+
+- id: shu2025branch
+  title: "Branch Explorer: Leveraging Branching Narratives to Support Interactive 360 Video Viewing for Blind and Low Vision Users"
+  authors:
+    - Shuchang Xu
+    - Xiaofu Jin
+    - Wenshuo Zhang
+    - Huamin Qu
+    - Yukang Yan
+  venue: UIST
+  tags:
+    - design
+    - generation
+  year: 2025
+  arxiv: https://arxiv.org/abs/2507.09959
+  image: ./assets/img/project/shu2025branch.png
+  tags:
+    - storytelling
+  doi: 10.1145/3746059.3747791
+
+- id: li2023why
+  title: "Why is AI not a Panacea for Data Workers? An Interview Study on Human-AI Collaboration in Data Storytelling"
+  authors:
+    - Haotian Li
+    - Yun Wang
+    - Vera Liao
+    - Huamin Qu
+  arxiv: https://arxiv.org/pdf/2304.08366.pdf
+  venue: TVCG
+  year: 2025
+  image: ./assets/img/project/li2023why.png
+  tags:
+    - storytelling
+    - design
+  doi: 10.1109/TVCG.2025.3552017
+
+- id: meng2024anidoc
+  title: "Anidoc: Animation Creation Made Easier"
+  authors:
+    - Yihao Meng
+    - Hao Ouyang
+    - Hanlin Wang
+    - Qiuyu Wang
+    - Wen Wang
+    - Ka Leong Cheng
+    - Zhiheng Liu
+    - Yujun Shen
+    - Huamin Qu
+  venue: CVPR
+  year: 2025
+  tags:
+    - animation
+    - generation
+  arxiv: https://arxiv.org/abs/2412.14173
+  link: https://yihao-meng.github.io/AniDoc_demo/
+  image: assets/img/project/meng2025anidoc.gif
+  doi: 10.1109/CVPR52734.2025.01695
+
+
+- id: shen2025reflection
+  title: "Reflecting on Design Paradigms of Animated Data Video Tools"
+  authors:
+    - Leixian Shen
+    - Haotian Li
+    - Yun Wang
+    - Huamin Qu
+  arxiv: https://arxiv.org/abs/2502.04801
+  venue: CHI
+  year: 2025
+  tags:
+    - animation
+    - patterns
+  image: ./assets/img/project/shen2025survey.png
+  arxiv: https://arxiv.org/abs/2502.04801
+  doi: 10.1145/3706598.3713449
+
+- id: alice
+  title: "“You'll Be Alice Adventuring in Wonderland!” Processes, Challenges, and Opportunities of Creating Animated Virtual Reality Stories"
+  authors:
+    - Lin-Ping Yuan
+    - Feilin Han
+    - Liwenhan Xie
+    - Junjie Zhang
+    - Jian Zhao
+    - Huamin Qu
+  venue: CHI
+  year: 2025
+  tags:
+    - animation
+    - storytelling
+    - patterns
+  image: ./assets/img/project/yuan2025alice.png
+  arxiv: https://arxiv.org/abs/2502.08513
+  doi: 10.1145/3706598.3714257
+  video: https://youtu.be/GQGqXW8GpOY
+
+- id: shen2024prompting
+  title: "Prompting Generative AI with Interaction-Augmented Instructions"
+  authors:
+    - Leixian Shen
+    - Haotian Li
+    - Yifang Wang
+    - Xing Xie
+    - Huamin Qu
+  venue: CHIEA
+  year: 2025
+  arxiv: https://arxiv.org/abs/2502.04801
+  doi: 10.1145/3706599.3720080
+  image: ./assets/img/project/shen2025prompting.jpg
+  tags:
+    - authoring
+    - patterns
+
+- id: rogers2025house
+  title: House Advantage or House of Cards? Stacking the Deck for Data Videos Leads to Null Results
+  authors:
+    - Jen Rogers
+    - Leixian Shen
+    - Ab Mosca
+    - Evan Peck
+    - Mingwei Li
+    - Anzu Hakone
+    - Kristi Potter 
+    - Remco Chang
+  year: 2025
+  venue: CHIEA
+  tags:
+    - storytelling
+    - patterns
+  doi: 10.1145/3706599.3720256
+  image: ./assets/img/project/rogers2025house.png
+  note: Collaborated Project
+
+- id: datasway
+  title: "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination"
+  authors:
+    - Liwenhan Xie
+    - Jiayi Zhou
+    - Anyi Rao
+    - Huamin Qu
+    - Xinhuan Shu
+  venue: arXiv
+  year: 2025
+  tags:
+    - animation
+    - authoring
+  link: https://shellywhen.github.io/projects/DataSway
+  video: https://youtu.be/kv6jF8NYyhk
+  arxiv: https://arxiv.org/abs/2507.22051
+  demo: https://shellywhen.github.io/datasway/
+  image: ./assets/img/project/xie2025datasway.gif
+
+
+- id: li2025meta
+  title: Composing Data Stories with Meta Relations
+  authors:
+    - Haotian Li
+    - Lu Ying
+    - Leixian Shen
+    - Yun Wang
+    - Yingcai Wu
+    - Huamin Qu
+  venue: arXiv
+  year: 2025
+  tags:
+    - storytelling
+    - authoring
+  arxiv: https://arxiv.org/abs/2501.03603
+  image: ./assets/img/project/li2025meta.png
+
 - id: shen2024dataplaywright
   title: "Data Playwright: Authoring Data Videos with Annotated Narration"
   authors:
@@ -42,7 +287,7 @@
 - id: wei2024hero
   title: "Telling Data Stories with the Hero’s Journey: Design Guidance for Creating Data Videos"
   authors:
-    - Wei Zheng
+    - Zheng Wei
     - Huamin Qu
     - Xian Xu
   venue: VIS
@@ -258,25 +503,6 @@
   image: ./assets/img/project/xie2023wakey.gif
   slides: https://hkustconnect-my.sharepoint.com/:p:/g/personal/lxieai_connect_ust_hk/ET6Huxsj6tlNu7WsGoxerYYB2ekgehIpXc0QGx3qCGunUQ?e=RCUlBc
   recording: https://youtu.be/71bf2j5oEVM
-
-- id: liu2024dynamic
-  title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
-  authors:
-    - Zichen Liu*
-    - Yihao Meng*
-    - Hao Ouyang
-    - Yue Yu
-    - Bolin Zhao
-    - Daniel Cohen-Or
-    - Huamin Qu
-  venue: arXiv
-  year: 2024
-  arxiv: https://arxiv.org/abs/2404.11614
-  tags:
-    - animation
-    - generation
-  image: ./assets/img/project/liu2024dynamic.gif
-  link: https://animate-your-word.github.io/demo/
   
 - id: lo2023why
   title: "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations"
@@ -321,17 +547,6 @@
   recording: https://youtu.be/T12RFmiu8-M
   demo: https://youtu.be/9bMoXDUu6YY
 
-- id: li2023why
-  title: "Why is AI not a Panacea for Data Workers? An Interview Study on Human-AI Collaboration in Data Storytelling"
-  authors:
-    - Haotian Li
-    - Yun Wang
-    - Vera Liao
-    - Huamin Qu
-  arxiv: https://arxiv.org/pdf/2304.08366.pdf
-  venue: arXiv
-  year: 2023
-  image: ./assets/img/project/li2023why.png
 
 - id: li2023notable
   title: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"

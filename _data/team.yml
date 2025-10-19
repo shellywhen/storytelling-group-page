@@ -8,9 +8,10 @@
   
 - name: Xian Xu
   url: https://xxuxian.github.io/
-  role: team
+  role: alumni
   image: ./assets/img/person/team/xian.jpg
-  title: RAP
+  title: AP
+  institute: Lingnan Uni.
 
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
@@ -29,8 +30,9 @@
 - name: Yifan Cao
   url: https://scholar.google.com/citations?user=2pLiEysAAAAJ&hl=en
   image: ./assets/img/person/team/yifan.png
-  role: team
-  title: PhD Candidate
+  role: alumni
+  institute: TBA
+  title: PhD
 
 
 - name: Leixian Shen
@@ -38,20 +40,21 @@
   img: https://shenleixian.github.io/images/Leixian1.jpg
   image: ./assets/img/person/team/leixian.png
   role: team
-  title: PhD Student
+  title: PhD Candidate
 
 - name: Yihao Meng
   url: https://yihao-meng.github.io/
   img: https://yihao-meng.github.io/images/yihao.jpg
   image: ./assets/img/person/team/yihao.png
   role: team
-  title: PhD Student
+  title: PhD Candidate
   
 - name: Zheng Wei
   url: https://scholar.google.com.hk/citations?user=CwYEjIYAAAAJ&hl=zh-CN
   image: ./assets/img/person/team/zheng.jpeg
   role: team
-  title: PhD Student
+  title: PhD Candidate
+  
 
 - name: Jiayi Zhou
   url: https://jiayzhou.github.io/
@@ -206,6 +209,10 @@
   image: ./assets/img/person/collaborator/adobe.png
   role: collaborator
 
+- name: Ant Research
+  image: ./assets/img/person/collaborator/ant.png
+  role: collaborator
+
 - name: Harvard
   image: ./assets/img/person/collaborator/harvard.png
   role: collaborator
@@ -213,14 +220,22 @@
 - name: UCSD
   image: ./assets/img/person/collaborator/ucsd.png
   role: collaborator
+- name: NTU
+  image: ./assets/img/person/collaborator/ntu.png
+  role: collaborator
 
 - name: UoE
   image: ./assets/img/person/collaborator/edin.png
   role: collaborator
 
-- name: northeastern
-  image: ./assets/img/person/collaborator/northeastern.png
+- name: UWaterloo
+  image: ./assets/img/person/collaborator/waterloo.png
   role: collaborator
+
+- name: TAU
+  image: ./assets/img/person/collaborator/tau.png
+  role: collaborator
+
 - name: ZJU
   image: ./assets/img/person/collaborator/zju.png
   role: collaborator
@@ -229,17 +244,37 @@
   image: ./assets/img/person/collaborator/fudan.png
   role: collaborator
 
-- name: CMA-HKUST
-  image: ./assets/img/person/collaborator/cma.jpg
-  role: collaborator
-
-
-- name: TAU
-  image: ./assets/img/person/collaborator/tau.png
-  role: collaborator
 - name: Tongji
   image: ./assets/img/person/collaborator/tongji.png
   role: collaborator
 
+- name: northeastern
+  image: ./assets/img/person/collaborator/northeastern.png
+  role: collaborator
+
+- name: Tufts
+  image: ./assets/img/person/collaborator/tufts.png
+  role: collaborator
+
+- name: University of Colorado Boulder
+  image: ./assets/img/person/collaborator/coloradoboulder.png
+  role: collaborator
+
+- name: University of Rochester
+  image: ./assets/img/person/collaborator/rochester.png
+  role: collaborator
+
+- name: Yongsei University
+  image: ./assets/img/person/collaborator/yongsei.svg
+  role: collaborator
+
+
+- name: CMA-HKUST
+  image: ./assets/img/person/collaborator/cma.jpg
+  role: collaborator
+
+- name: bfa
+  image: ./assets/img/person/collaborator/bjfilm.svg
+  role: collaborator
 
 

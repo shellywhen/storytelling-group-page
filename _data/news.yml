@@ -1,26 +1,46 @@
-- message: "DataPlayWright was accepted to IEEE TVCG. Congrats to Leixian!"
-  date: 2024-10-04
+- message: "Dynamic Typography was nominated for the Best Paper Finalist at ICCV 2025! Congrats to Zichen, Yihao, and Yue!"
+  date: 2025-10-01
   type: pub
 
-- message: "PyGWalker received the Best Short Paper Award in IEEE VIS!"
-  date: 2024-08-23
-  type: award
-
-- message: "Congrats to Haotian Li and Yu-Ho Lo for successfully defending their PhD theses!"
-  date: 2023-08-25
+- message: "Dr. Xian Xu will join Lingnan University as an Assistant Professor. Congratulations!"
+  date: 2025-09-15
   type: graduation
 
-- message: "Two papers, one short paper, and one workshop paper were accpeted in IEEE VIS!"
-  date: 2024-07-25
+- message: "DataWink was accepted to IEEE VIS. Congrats to Shelly!"
+  date: 2025-07-30
   type: pub
 
-- message: "Congrats to Haotian for winning the Honorabl Mention Award at ACM CHI 2024!"
-  date: 2024-04-26
+- message: "Three papers were accepted to ACM UIST 2025. Congratulations!"
+  date: 2025-8-15
   type: pub
 
-- message: "Two papers were accepted in ACM CHI! Check out our survey on human-AI collaboration in data storytelling and authoring approach on notebook."
-  date: 2024-01-18
+- message: "Two full papers and one LBW will be presented at ACM CHI. Stay tuned!"
+  date: 2025-04-01
   type: pub
+
+# - message: "DataPlayWright was accepted to IEEE TVCG. Congrats to Leixian and the team!"
+#   date: 2024-10-04
+#   type: pub
+
+# - message: "PyGWalker received the Best Short Paper Award in IEEE VIS!"
+#   date: 2024-08-23
+#   type: award
+
+# - message: "Congrats to Haotian Li and Yu-Ho Lo for successfully defending their PhD theses!"
+#   date: 2023-08-25
+#   type: graduation
+
+# - message: "Two papers, one short paper, and one workshop paper were accpeted in IEEE VIS!"
+#   date: 2024-07-25
+#   type: pub
+
+# - message: "Congrats to Haotian for winning the Honorabl Mention Award at ACM CHI 2024!"
+#   date: 2024-04-26
+#   type: pub
+
+# - message: "Two papers were accepted in ACM CHI! Check out our survey on human-AI collaboration in data storytelling and authoring approach on notebook."
+#   date: 2024-01-18
+#   type: pub
 
 # - message: "Congrats to Wenchao Li for successfully defending his PhD thesis titled *Interactive Visualization Systems for Narrative-Driven Data Exploration and Communication*!"
 #   date: 2023-08-25
