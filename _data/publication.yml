@@ -131,6 +131,30 @@
   image: assets/img/project/meng2025anidoc.gif
   doi: 10.1109/CVPR52734.2025.01695
 
+- id: liu2025magicquill
+  title: "MagicQuill: An Intelligent Interactive Image Editing System"
+  authors:
+    - Zichen Liu
+    - Yue Yu
+    - Hao Ouyang
+    - Qiuyu Wang
+    - Ka Leong Cheng
+    - Wen Wang
+    - Zhiheng Liu
+    - Qifeng Chen
+    - Yujun Shen
+  venue: CVPR
+  year: 2025
+  tags:
+    - generation
+  arxiv: 
+  link: https://magicquill.art/demo/
+  demo: https://huggingface.co/spaces/AI4Editing/MagicQuill
+  code: https://github.com/magic-quill/MagicQuill
+  image: ./assets/img/project/liu2025magicquill.gif
+  doi: 10.1109/CVPR52734.2025.01220
+  note: Collaborated Project
+
 
 - id: shen2025reflection
   title: "Reflecting on Design Paradigms of Animated Data Video Tools"
@@ -206,7 +230,28 @@
   image: ./assets/img/project/rogers2025house.png
   note: Collaborated Project
 
-- id: datasway
+- id: shao2025narrative
+  title: "Narrative Player: Reviving Data Narratives with Visuals"
+  authors:
+    - Zekai Shao
+    - Leixian Shen
+    - Haotian Li
+    - Yi Shan
+    - Huamin Qu
+    - Yun Wang
+    - Siming Chen
+  venue: TVCG
+  year: 2025
+  tags:
+    - storytelling
+    - generation
+  arxiv: https://arxiv.org/abs/2410.03268
+  link: https://datavideos.github.io/Narrative_Player/
+  doi: 10.1109/TVCG.2025.3530512
+  image: ./assets/img/project/shao2025narrative.png
+  note: Collaborated Project
+
+- id: xie2025datasway
   title: "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination"
   authors:
     - Liwenhan Xie
